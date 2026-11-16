@@ -1,0 +1,231 @@
+{
+  "corpus": {
+    "source_id": "unicef-vietnam-2045-children",
+    "source_url": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+    "local_manifest": "../../data/day7/manifest.yaml",
+    "scope": "107 counted content pages listed in the Day 7 manifest; evidence page numbers are 1-based physical PDF pages."
+  },
+  "metadata_schema": {
+    "filter_field": "section",
+    "values": {
+      "introduction": "PDF pages 9-13",
+      "methodology": "PDF page 14",
+      "case_for_investment": "PDF page 16",
+      "education": "PDF pages 17-48",
+      "health_nutrition": "PDF pages 49-67",
+      "wash": "PDF pages 68-77",
+      "social_protection": "PDF pages 78-88",
+      "child_protection": "PDF pages 89-99",
+      "cross_cutting": "PDF pages 100-112",
+      "conclusion": "PDF pages 113-114",
+      "annex": "PDF pages 134-135"
+    },
+    "assignment_rule": "Set section from the 1-based physical PDF page range; split chunks at section boundaries."
+  },
+  "questions": [
+    {
+      "id": "D7-01",
+      "split": "dev",
+      "type": "direct",
+      "question": "How large is Viet Nam's population of children under 18, and approximately what share of the country's population does the report say they represent?",
+      "filter": {
+        "section": "introduction"
+      }
+    },
+    {
+      "id": "D7-02",
+      "split": "dev",
+      "type": "direct",
+      "question": "What proportion of children under 16 in Viet Nam remained multidimensionally poor in 2024?",
+      "filter": {
+        "section": "introduction"
+      }
+    },
+    {
+      "id": "D7-03",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "According to the report's investment case, when do early-childhood investments yield high returns, and what are two examples of early interventions?",
+      "filter": {
+        "section": "case_for_investment"
+      }
+    },
+    {
+      "id": "D7-04",
+      "split": "dev",
+      "type": "direct",
+      "question": "In the education chapter, what annual return on investment does the cited evidence attribute to high-quality early-childhood education programmes?",
+      "filter": {
+        "section": "education"
+      }
+    },
+    {
+      "id": "D7-05",
+      "split": "dev",
+      "type": "comparison",
+      "question": "In 2020-21, how did upper-secondary completion differ between urban and rural students?",
+      "filter": {
+        "section": "education"
+      }
+    },
+    {
+      "id": "D7-06",
+      "split": "dev",
+      "type": "direct",
+      "question": "What shares of primary, lower-secondary, and high schools had suitable facilities and materials for students with disabilities, respectively?",
+      "filter": {
+        "section": "education"
+      }
+    },
+    {
+      "id": "D7-07",
+      "split": "dev",
+      "type": "comparison",
+      "question": "In 2020-21, what share of children received a minimum acceptable diet, and how did the rate for the poorest households compare with the richest?",
+      "filter": {
+        "section": "health_nutrition"
+      }
+    },
+    {
+      "id": "D7-08",
+      "split": "dev",
+      "type": "direct",
+      "question": "How did exclusive breastfeeding during the first six months change between 2010 and 2020?",
+      "filter": {
+        "section": "health_nutrition"
+      }
+    },
+    {
+      "id": "D7-09",
+      "split": "dev",
+      "type": "direct",
+      "question": "What share of total health expenditure does the report say is currently paid out of pocket?",
+      "filter": {
+        "section": "health_nutrition"
+      }
+    },
+    {
+      "id": "D7-10",
+      "split": "dev",
+      "type": "trend",
+      "question": "In the WASH chapter, how did access to drinking water through a centralized supply system change from 2018 to 2022?",
+      "filter": {
+        "section": "wash"
+      }
+    },
+    {
+      "id": "D7-11",
+      "split": "dev",
+      "type": "trend",
+      "question": "How did the share of children in Viet Nam receiving child or family cash benefits change from 2015 to 2023?",
+      "filter": {
+        "section": "social_protection"
+      }
+    },
+    {
+      "id": "D7-12",
+      "split": "dev",
+      "type": "policy",
+      "question": "In the social-protection recommendations, which groups are proposed as the initial recipients of gradually universal cash transfers, and what is the stated longer-term age coverage?",
+      "filter": {
+        "section": "social_protection"
+      }
+    },
+    {
+      "id": "D7-13",
+      "split": "dev",
+      "type": "direct",
+      "question": "What percentage of children under five had a birth certificate nationally?",
+      "filter": {
+        "section": "child_protection"
+      }
+    },
+    {
+      "id": "D7-14",
+      "split": "dev",
+      "type": "direct",
+      "question": "What was the objective and date range of Viet Nam's first National Programme on Online Protection and Support for Children's Healthy and Creative Interactions?",
+      "filter": {
+        "section": "child_protection"
+      }
+    },
+    {
+      "id": "D7-15",
+      "split": "dev",
+      "type": "direct",
+      "question": "What proportion of women and girls reported partner violence in 2019, according to the cross-cutting issues chapter?",
+      "filter": {
+        "section": "cross_cutting"
+      }
+    },
+    {
+      "id": "D7-16",
+      "split": "test",
+      "type": "trend",
+      "question": "According to the national child-labour surveys cited in the report, how did the reported rate change from 2012 to 2023?",
+      "filter": {
+        "section": "child_protection"
+      }
+    },
+    {
+      "id": "D7-17",
+      "split": "test",
+      "type": "direct",
+      "question": "In the social-protection chapter, how much could the modeled universal child benefit reduce Viet Nam's child income-poverty rate?",
+      "filter": {
+        "section": "social_protection"
+      }
+    },
+    {
+      "id": "D7-18",
+      "split": "test",
+      "type": "direct",
+      "question": "What was Viet Nam's score and global rank on the Children's Climate Risk Index 2021?",
+      "filter": {
+        "section": "cross_cutting"
+      }
+    },
+    {
+      "id": "D7-19",
+      "split": "test",
+      "type": "comparison",
+      "question": "By age 15, how did the share of children from the poorest households who experienced an extreme weather event affecting household finances compare with the share from the wealthiest households?",
+      "filter": {
+        "section": "cross_cutting"
+      }
+    },
+    {
+      "id": "D7-20",
+      "split": "test",
+      "type": "direct",
+      "question": "What aspirational Human Capital Index target does the conclusion mention for Viet Nam?",
+      "filter": {
+        "section": "conclusion"
+      }
+    },
+    {
+      "id": "D7-21",
+      "split": "dev",
+      "type": "direct",
+      "question": "What minimum counsellor-to-student ratio does the report prescribe for mental-health counsellors in schools?"
+    },
+    {
+      "id": "D7-22",
+      "split": "dev",
+      "type": "direct",
+      "question": "What exact monthly amount in VND does the report commit to paying universally to every child under 18 by 2045?"
+    },
+    {
+      "id": "D7-23",
+      "split": "test",
+      "type": "direct",
+      "question": "How many climate-resilient schools does the report commit to constructing by 2045?"
+    },
+    {
+      "id": "D7-24",
+      "split": "test",
+      "type": "direct",
+      "question": "What percentage of GDP does the report set aside for a child-specific climate-adaptation budget by 2045?"
+    }
+  ]
+}

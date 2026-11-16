@@ -1,0 +1,7 @@
+# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+psycopg[binary]==3.3.8
+pypdf>=5,<7
+PyMuPDF>=1.24,<2
+python-dotenv>=1,<2
+PyYAML>=6,<7
+streamlit>=1.40,<2
