@@ -56,6 +56,58 @@ python3 starter/agent_metrics.py --cases <cases.json> --traces <traces.json> --r
 
 Thay đường dẫn trong `< >`. Script tổng hợp nhãn bạn đã chấm, không tự đánh giá nội dung. Mẫu số bằng 0 nghĩa là không áp dụng. Lỗi kết nối được báo riêng, không tính vào chất lượng; giữ trace và nhãn để đối chiếu.
 
+## 5. Chạy agent thật trên benchmark Day 7
+
+`run_day7_agent.py` kết nối OpenRouter với PostgreSQL/pgvector qua `starter/.env` và chạy bộ câu hỏi Day 7 trên các index `day7_A`, `day7_B`, `day7_C`. Mặc định chạy đủ 17 câu dev trên cả ba chiến lược. Model không nhận gold; chỉ chiến lược C áp dụng section filter có sẵn trong câu hỏi. Cần có `OPENROUTER_API_KEY`, `DATABASE_URL`, và embedding model tương thích với index trong `.env`.
+
+Chạy từ thư mục `starter`:
+
+```bash
+.venv/bin/python run_day7_agent.py --model openai/gpt-4o-mini
+```
+
+Mỗi cấu hình dùng top-3, tối đa 4 lượt search, context budget mặc định 3.000 ký tự và temperature 0. Có thể đổi tham số bằng `--top-k`, `--max-searches`, `--budget-chars`; giữ giống nhau giữa các cấu hình để so sánh. Lệnh gọi API thật và có thể phát sinh phí. Output được ghi vào thư mục timestamp mới trong `starter/results/day7/`, gồm `traces.json`, `summary.json` và `run.json`; trace có truy vấn, kết quả retrieval, context, câu trả lời, citation, trạng thái, thời gian, token và chi phí do provider báo. Nếu provider không trả chi phí, trường thiếu được đếm riêng. Lỗi từng câu được ghi với trạng thái `error`, không thay bằng kết quả giả.
+
+Các chỉ số trong summary là vận hành, không tự chấm độ đúng. Tự xem context, câu trả lời và từng citation; ghi nhãn grounded answer, citation support và abstention theo [BENCHMARK.md](../BENCHMARK.md). Chỉ chạy test sau khi đã chọn cấu hình trên dev.
+
+Sau khi chọn cấu hình, có thể chạy baseline A và cấu hình chọn C trên cùng test:
+
+```bash
+.venv/bin/python run_day7_agent.py --model openai/gpt-4o-mini --split test --strategies A C
+```
+
+Benchmark Day 7 hiện đã chạy test cho retrieval/context; do đó test agent này là kết quả mô tả trên bộ đã lộ, không phải đánh giá độc lập mù.
+
+## 6. Thử thách nâng cao: PDF và evidence trực quan
+
+Benchmark riêng nằm trong `benchmark/advanced/`: `questions.json` có 18 câu dev và 30 câu test; đáp án/evidence được tách riêng trong `gold.json` và không được truyền vào runner. Test có 6 câu bảng, 5 ảnh/sơ đồ, 5 biểu đồ, 4 multi-hop, 4 text và 6 câu thiếu evidence. Dev có 15 câu có đáp án và 3 câu thiếu evidence. Dùng validator trước khi chạy:
+
+```bash
+.venv/bin/python validate_advanced_benchmark.py
+```
+
+Tạo lại index ảnh toàn bộ trang nội dung (cần PyMuPDF, khai báo trong `requirements.txt`):
+
+```bash
+.venv/bin/python build_advanced_visual_index.py
+```
+
+Index lưu số trang PDF vật lý, hash PDF/ảnh và ảnh trang đầy đủ. Runner ghép ảnh của tối đa hai trang truy xuất vào câu hỏi bảng/biểu đồ/ảnh-sơ đồ/multi-hop; câu text và câu thiếu evidence không gửi ảnh. Đây không phải OCR hay image retrieval độc lập. Đối chiếu vùng/locator của gold với tài liệu gốc; validator tự động chỉ kiểm tra quote text trích được và cấu trúc benchmark, không xác nhận độ đúng của diễn giải hình.
+
+Sau khi xác minh nguồn và có đủ API credit, so sánh cấu hình trên dev trước:
+
+```bash
+.venv/bin/python run_day7_agent.py --model openai/gpt-4o-mini --split dev --strategies A B C --questions benchmark/advanced/questions.json --visual-index results/day7/advanced_visual_index --max-searches 2 --budget-chars 1800
+```
+
+Chấm dev rồi freeze một cấu hình trước khi chạy test. Chỉ khi đã freeze, chạy đủ test bằng cấu hình đã chọn (thay `A` bằng cấu hình thực tế):
+
+```bash
+.venv/bin/python run_day7_agent.py --model openai/gpt-4o-mini --split test --strategies A --questions benchmark/advanced/questions.json --visual-index results/day7/advanced_visual_index --max-searches 2 --budget-chars 1800
+```
+
+Không chọn cấu hình dựa trên test. Lỗi, timeout hoặc không có kết quả tính là câu không đạt; cần chấm thủ công toàn bộ test, citation và evidence từ PDF gốc rồi báo n/N theo từng nhóm. Các lần chạy dev hiện lưu dưới `results/day7/agent_dev_20261116T152306Z/` và `results/day7/agent_dev_20261116T153851Z/`, nhưng OpenRouter trả HTTP 402 do thiếu credit, nên chưa freeze cấu hình và chưa chạy test advanced. Không công bố điểm hay bonus từ các lần chạy dở dang.
+
 ## Lưu ý
 
 TF-IDF dùng cách tách từ đơn giản. `baseline.py` dùng mặc định context budget 800 ký tự, gồm cả nguồn; chunk không vừa bị bỏ. Bạn có thể chọn cách khác. File kết quả cùng tên sẽ bị ghi đè. `starter/data/` và `starter/results/` không được Git theo dõi mặc định; nếu được phép chia sẻ, dùng `git add -f <đường-dẫn>`, hoặc ghi cách tái tạo. Không nộp dữ liệu mật và secret.

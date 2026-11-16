@@ -1,0 +1,61 @@
+{
+  "source_id": "unicef-vietnam-2045-children",
+  "source_snapshot_sha256": "1dc94fe84874fdf0f0955d523990a019d116cbdd752fdfd1f6cc021a428dbdd9",
+  "expected_counts": {"dev": 18, "test": 30},
+  "questions": [
+    {"id":"ADV-D-T01","split":"dev","group":"table","type":"direct","question":"In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?","filter":{"section":"wash"}},
+    {"id":"ADV-D-T02","split":"dev","group":"table","type":"comparison","question":"In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?","filter":{"section":"wash"}},
+    {"id":"ADV-D-T03","split":"dev","group":"table","type":"direct","question":"According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?","filter":{"section":"wash"}},
+    {"id":"ADV-D-I01","split":"dev","group":"image_diagram","type":"visual","question":"On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?","filter":{"section":"wash"}},
+    {"id":"ADV-D-I02","split":"dev","group":"image_diagram","type":"visual","question":"Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?","filter":{"section":"wash"}},
+    {"id":"ADV-D-I03","split":"dev","group":"image_diagram","type":"visual","question":"What is the rightmost investment stage label on the x-axis of Figure 29?","filter":{"section":"annex"}},
+    {"id":"ADV-D-C01","split":"dev","group":"chart","type":"trend","question":"Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.","filter":{"section":"education"}},
+    {"id":"ADV-D-C02","split":"dev","group":"chart","type":"comparison","question":"In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?","filter":{"section":"health_nutrition"}},
+    {"id":"ADV-D-C03","split":"dev","group":"chart","type":"direct","question":"In Figure 16, what was the national wasting prevalence in 2022?","filter":{"section":"health_nutrition"}},
+    {"id":"ADV-D-M01","split":"dev","group":"multi_hop","type":"comparison","question":"Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.","filter":{"section":"wash"}},
+    {"id":"ADV-D-M02","split":"dev","group":"multi_hop","type":"comparison","question":"Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?","filter":{}},
+    {"id":"ADV-D-M03","split":"dev","group":"multi_hop","type":"comparison","question":"Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?","filter":{"section":"health_nutrition"}},
+    {"id":"ADV-D-X01","split":"dev","group":"text","type":"direct","question":"How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?","filter":{"section":"overview"}},
+    {"id":"ADV-D-X02","split":"dev","group":"text","type":"direct","question":"What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?","filter":{"section":"overview"}},
+    {"id":"ADV-D-X03","split":"dev","group":"text","type":"direct","question":"What annual return on investment does the report cite for high-quality early childhood education programmes?","filter":{"section":"education"}},
+    {"id":"ADV-D-U01","split":"dev","group":"insufficient_evidence","type":"abstention","question":"What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?"},
+    {"id":"ADV-D-U02","split":"dev","group":"insufficient_evidence","type":"abstention","question":"What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?"},
+    {"id":"ADV-D-U03","split":"dev","group":"insufficient_evidence","type":"abstention","question":"How many climate-resilient schools does the report commit to constructing by 2045?"},
+
+    {"id":"ADV-T-T01","split":"test","group":"table","type":"direct","question":"In Table 1, what are the national percentages for improved drinking water, improved sanitation, and handwashing facilities with water and soap?","filter":{"section":"wash"}},
+    {"id":"ADV-T-T02","split":"test","group":"table","type":"comparison","question":"From Table 1, what are the urban and rural percentages for access to improved sanitation, and how many percentage points higher is the urban rate?","filter":{"section":"wash"}},
+    {"id":"ADV-T-T03","split":"test","group":"table","type":"direct","question":"In Table 1, give all three access percentages (water, sanitation, hygiene) for households whose head is Mong.","filter":{"section":"wash"}},
+    {"id":"ADV-T-T04","split":"test","group":"table","type":"trend","question":"In Table 2, how did the total multidimensional child-poverty rate at the 2/7 deprivation threshold change from 2016 to 2024? Give both percentages.","filter":{"section":"social_protection"}},
+    {"id":"ADV-T-T05","split":"test","group":"table","type":"trend","question":"In Table 2, at the 3/7 threshold, what were the rural child-poverty rates in 2016 and 2024?","filter":{"section":"social_protection"}},
+    {"id":"ADV-T-T06","split":"test","group":"table","type":"comparison","question":"In Table 2, at the 2/7 threshold in 2024, compare the total rates for boys and girls and give the percentage-point difference.","filter":{"section":"social_protection"}},
+
+    {"id":"ADV-T-I01","split":"test","group":"image_diagram","type":"visual","question":"In Figure 23's map legend, which percentage range is represented by the red/darkest category for open defecation?","filter":{"section":"wash"}},
+    {"id":"ADV-T-I02","split":"test","group":"image_diagram","type":"visual","question":"What measure is mapped in Figure 23, and at what geographic level does the caption say it is shown?","filter":{"section":"wash"}},
+    {"id":"ADV-T-I03","split":"test","group":"image_diagram","type":"visual","question":"In Figure 23, what is the label of the region shown in the northern mountainous part of Viet Nam?","filter":{"section":"wash"}},
+    {"id":"ADV-T-I04","split":"test","group":"image_diagram","type":"visual","question":"According to Figure 29, name the two earliest investment stages shown before preschool, in order.","filter":{"section":"annex"}},
+    {"id":"ADV-T-I05","split":"test","group":"image_diagram","type":"visual","question":"In Figure 29, which labeled stage follows schooling, and which age category is printed under the schooling stage?","filter":{"section":"annex"}},
+
+    {"id":"ADV-T-C01","split":"test","group":"chart","type":"trend","question":"Reading Figure 2, what were the primary-school attendance percentages in 2014 and 2020-21?","filter":{"section":"education"}},
+    {"id":"ADV-T-C02","split":"test","group":"chart","type":"trend","question":"In Figure 2, what were the upper-secondary-age attendance percentages in 2014 and 2020-21?","filter":{"section":"education"}},
+    {"id":"ADV-T-C03","split":"test","group":"chart","type":"trend","question":"In Figure 13, what were the under-five underweight prevalence rates in 2016 and 2022?","filter":{"section":"health_nutrition"}},
+    {"id":"ADV-T-C04","split":"test","group":"chart","type":"trend","question":"In Figure 15, how did under-five stunting prevalence change from 2016 to 2022? Give both percentages.","filter":{"section":"health_nutrition"}},
+    {"id":"ADV-T-C05","split":"test","group":"chart","type":"trend","question":"In Figure 26, at the 3/7 deprivation threshold, what were the total child-poverty rates in 2020 and 2024?","filter":{"section":"social_protection"}},
+
+    {"id":"ADV-T-M01","split":"test","group":"multi_hop","type":"comparison","question":"Using the rural row of Table 1 and the paragraph immediately above it, compare rural access to improved drinking-water sources with piped water into the dwelling. Give both percentages and the percentage-point gap.","filter":{"section":"wash"}},
+    {"id":"ADV-T-M02","split":"test","group":"multi_hop","type":"comparison","question":"Using Figure 26 and Table 2, calculate the 2024 percentage-point difference between the total child-poverty rates at the 2/7 and 3/7 deprivation thresholds.","filter":{"section":"social_protection"}},
+    {"id":"ADV-T-M03","split":"test","group":"multi_hop","type":"comparison","question":"Combine Figure 2 on PDF page 20 and Figure 5 on PDF page 25: report 2020-21 primary-school attendance and the urban-minus-rural upper-secondary completion gap.","filter":{"section":"education"}},
+    {"id":"ADV-T-M04","split":"test","group":"multi_hop","type":"comparison","question":"Use Table 1 and the WASH paragraph on PDF page 70 to compare Central Highlands improved sanitation access with piped drinking-water coverage. Give both percentages and the percentage-point gap.","filter":{"section":"wash"}},
+
+    {"id":"ADV-T-X01","split":"test","group":"text","type":"direct","question":"What percentage of children in Viet Nam (and how many children) face three or more types of climate shocks?","filter":{"section":"cross_cutting"}},
+    {"id":"ADV-T-X02","split":"test","group":"text","type":"direct","question":"What percentage of children aged 12-17 have received online-safety training, according to the report?","filter":{"section":"cross_cutting"}},
+    {"id":"ADV-T-X03","split":"test","group":"text","type":"direct","question":"Among respondents in the cited UNICEF Viet Nam survey, what shares said their environment was polluted, meal quality/quantity had declined, and family income had decreased due to climate change?","filter":{"section":"cross_cutting"}},
+    {"id":"ADV-T-X04","split":"test","group":"text","type":"direct","question":"How many children were expected to benefit from the nationwide public-school tuition-fee exemption starting in 2025-26?","filter":{"section":"education"}},
+
+    {"id":"ADV-T-U01","split":"test","group":"insufficient_evidence","type":"abstention","question":"What exact percentage of Viet Nam's GDP does the report commit to a child-specific climate-adaptation budget by 2045?"},
+    {"id":"ADV-T-U02","split":"test","group":"insufficient_evidence","type":"abstention","question":"How many new child mental-health counsellors does the report require each province to hire per year?"},
+    {"id":"ADV-T-U03","split":"test","group":"insufficient_evidence","type":"abstention","question":"What exact annual VND funding amount does the report earmark for climate-resilient schools?"},
+    {"id":"ADV-T-U04","split":"test","group":"insufficient_evidence","type":"abstention","question":"How many hospital beds per 1,000 children does the report set as a national 2045 target?"},
+    {"id":"ADV-T-U05","split":"test","group":"insufficient_evidence","type":"abstention","question":"What exact year does the report promise that every school will have a dedicated mental-health counsellor?"},
+    {"id":"ADV-T-U06","split":"test","group":"insufficient_evidence","type":"abstention","question":"What is the committed annual number of climate-adaptation projects specifically for children by 2045?"}
+  ]
+}

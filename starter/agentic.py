@@ -61,7 +61,10 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
                            'context': context, 'context_ids': ids})
             # Send only the latest cumulative context; avoid multiplying the budget.
             history = [{'tool': 'search', 'queries': [e['query'] for e in events if e['event'] == 'search'],
-                        'context': context, 'context_ids': ids}]
+                        'context': context, 'context_ids': ids,
+                        'visual_pages': list(dict.fromkeys(
+                            result['page'] for result in results if result.get('visual_page')
+                        ))}]
         elif action.get('action') == 'answer':
             answer, citations = action.get('answer'), action.get('citations')
             if not isinstance(answer, str) or not isinstance(citations, list) or any(not isinstance(i, str) for i in citations):

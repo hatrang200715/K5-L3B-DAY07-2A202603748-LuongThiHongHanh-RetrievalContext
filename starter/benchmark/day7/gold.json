@@ -1,0 +1,252 @@
+{
+  "source_id": "unicef-vietnam-2045-children",
+  "page_basis": "1-based physical PDF page",
+  "entries": [
+    {
+      "question_id": "D7-01",
+      "answerability": "answerable",
+      "expected_answer": "The report says Viet Nam has upwards of 28 million children under 18, roughly one fourth of its 100.4 million population.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 9,
+      "gold_printed_page": 9,
+      "evidence_quote": "population of children under age 18 years in Viet Nam is upwards of 28 million, making up roughly one fourth of Viet Nam’s 100.4 million population."
+    },
+    {
+      "question_id": "D7-02",
+      "answerability": "answerable",
+      "expected_answer": "8.4% of children under 16 remained multidimensionally poor in 2024.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 9,
+      "gold_printed_page": 9,
+      "evidence_quote": "By 2024, 8.4% of children under 16 years of age in Viet Nam remain multidimensionally poor"
+    },
+    {
+      "question_id": "D7-03",
+      "answerability": "answerable",
+      "expected_answer": "Investments made especially during the first 1,000 days of life yield high returns. Examples listed include prenatal care, proper nutrition, immunisation, and early-childhood development and education.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 16,
+      "gold_printed_page": 16,
+      "evidence_quote": "timely investments in early childhood, especially in the first 1,000 days of life, yield high returns"
+    },
+    {
+      "question_id": "D7-04",
+      "answerability": "answerable",
+      "expected_answer": "The cited evidence reports a 13% annual return on investment for high-quality early-childhood education programmes.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 17,
+      "gold_printed_page": 17,
+      "evidence_quote": "Compelling international evidence by Garcia, Heckman, and other authors, on the economic and societal returns of high-quality ECE programmes reveals a 13% annual return on investment (ROI)"
+    },
+    {
+      "question_id": "D7-05",
+      "answerability": "answerable",
+      "expected_answer": "Upper-secondary completion was 74.8% for urban students and 46.4% for rural students.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 25,
+      "gold_printed_page": 25,
+      "evidence_quote": "Urban students (74.8%) are much more likely to complete upper secondary education, compared to rural students (46.4%)."
+    },
+    {
+      "question_id": "D7-06",
+      "answerability": "answerable",
+      "expected_answer": "Suitable facilities and materials were available in 37.1% of primary schools, 28.9% of lower-secondary schools, and 19.9% of high schools.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 26,
+      "gold_printed_page": 26,
+      "evidence_quote": "Only a limited share of schools having suitable facilities and materials for students with disabilities, at respectively 37.1%, 28.9%, and 19.9% of schools at the primary, lower secondary, and high school levels."
+    },
+    {
+      "question_id": "D7-07",
+      "answerability": "answerable",
+      "expected_answer": "Overall, 45.4% of children received a minimum acceptable diet; the rate was 26.7% among the poorest households and 56.0% among the richest.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 50,
+      "gold_printed_page": 50,
+      "evidence_quote": "only 45.4% of children received a minimum acceptable diet, combining both dietary diversity and frequency. The richest households had the highest rate (56.0%), compared to just 26.7% among the poorest."
+    },
+    {
+      "question_id": "D7-08",
+      "answerability": "answerable",
+      "expected_answer": "Exclusive breastfeeding during the first six months increased from 19.6% in 2010 to 45.4% in 2020.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 50,
+      "gold_printed_page": 50,
+      "evidence_quote": "the rate of exclusive breastfeeding in the first six months markedly improved between 2010 and 2020, increasing from 19.6% to 45.4%"
+    },
+    {
+      "question_id": "D7-09",
+      "answerability": "answerable",
+      "expected_answer": "Out-of-pocket payments account for half of total health expenditure.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 64,
+      "gold_printed_page": 64,
+      "evidence_quote": "out-of-pocket (OOP) payments, which currently account for half of total health expenditures."
+    },
+    {
+      "question_id": "D7-10",
+      "answerability": "answerable",
+      "expected_answer": "From 2018 to 2022, centralized drinking-water supply access increased from 86.7% to 94.2%.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 68,
+      "gold_printed_page": 68,
+      "evidence_quote": "From 2018 to 2022, Viet Nam made notable progress in access to adequate water and sanitation facilities. Access to drinking water through a centralized water supply system increased from 86.7% to 94.2% in the period mentioned."
+    },
+    {
+      "question_id": "D7-11",
+      "answerability": "answerable",
+      "expected_answer": "The share rose from 1% in 2015 to 1.4% in 2023.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 82,
+      "gold_printed_page": 82,
+      "evidence_quote": "Data from 2015 to 2023 show a modest increase in the proportion of children receiving child or family cash benefits in Viet Nam, from 1% to 1.4% (Figure 27)."
+    },
+    {
+      "question_id": "D7-12",
+      "answerability": "answerable",
+      "expected_answer": "The report proposes initially expanding transfers to children under six and pregnant women, with a gradual move toward a universal child benefit for all children under 18.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 86,
+      "gold_printed_page": 86,
+      "evidence_quote": "Expand social protection and social assistance for children, introducing gradually universal(ist) cash transfers for children under six years and pregnant women (i.e., a universal child benefit), progressively until reaching the whole child population. The objective should be to gradually move toward a universal child benefit for all children under age 18"
+    },
+    {
+      "question_id": "D7-13",
+      "answerability": "answerable",
+      "expected_answer": "98.1% of children under five had a birth certificate nationally.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 90,
+      "gold_printed_page": 90,
+      "evidence_quote": "At the national level, 98.1% of children under five have a birth certificate."
+    },
+    {
+      "question_id": "D7-14",
+      "answerability": "answerable",
+      "expected_answer": "Endorsed in June 2021 for 2021-2025, the programme aimed to protect children's personal information and privacy online and support safe, healthy online interactions.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 90,
+      "gold_printed_page": 90,
+      "evidence_quote": "In June 2021, the first-ever National Programme on Online Protection and Support for Children’s Healthy and Creative Interactions 2021-2025 was endorsed, with the objective to protect children’s (personal) information and privacy when accessing the internet and participating in online activities and to support safe and healthy online interactions."
+    },
+    {
+      "question_id": "D7-15",
+      "answerability": "answerable",
+      "expected_answer": "The report says 21.8% of women and girls reported partner violence in 2019.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 100,
+      "gold_printed_page": 100,
+      "evidence_quote": "with 21.8% of women and girls reporting violence by a partner in 2019"
+    },
+    {
+      "question_id": "D7-16",
+      "answerability": "answerable",
+      "expected_answer": "The reported rate fell from 9.6% in 2012 to 5.4% in 2018 and 1.31% in 2023, according to national surveys; the report cautions that these figures cover children involved in economic activities.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 90,
+      "gold_printed_page": 90,
+      "evidence_quote": "child labour, which fell from 9.6% in 2012 to 5.4% in 2018 and down to 1.31% in 2023 according to national child labour surveys."
+    },
+    {
+      "question_id": "D7-17",
+      "answerability": "answerable",
+      "expected_answer": "The modeled universal child benefit could reduce the child income-poverty rate from 17.0% to 12.7%.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 84,
+      "gold_printed_page": 84,
+      "evidence_quote": "the child income poverty rate for Viet Nam could be reduced from 17.0% to 12.7% via the introduction of a UCB"
+    },
+    {
+      "question_id": "D7-18",
+      "answerability": "answerable",
+      "expected_answer": "Viet Nam scored 6.8 and ranked 37th globally.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 105,
+      "gold_printed_page": 105,
+      "evidence_quote": "According to the Children’s Climate Risk Index 2021, Viet Nam scores 6.8 (ranked 37 globally)"
+    },
+    {
+      "question_id": "D7-19",
+      "answerability": "answerable",
+      "expected_answer": "By age 15, half of children in the poorest households had experienced at least one such event, compared with 17% in the wealthiest households.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 106,
+      "gold_printed_page": 106,
+      "evidence_quote": "half of the children from the poorest households had experienced at least one extreme weather event that negatively impacted their household economy by the age of 15, compared to only 17% of children from the wealthiest households."
+    },
+    {
+      "question_id": "D7-20",
+      "answerability": "answerable",
+      "expected_answer": "The conclusion mentions an aspirational Human Capital Index target of 0.75 to 0.80.",
+      "gold_source_id": "unicef-vietnam-2045-children",
+      "gold_page": 113,
+      "gold_printed_page": 113,
+      "evidence_quote": "an aspirational HCI target of 0.75 to 0.80."
+    },
+    {
+      "question_id": "D7-21",
+      "answerability": "insufficient_evidence",
+      "expected_answer": null,
+      "abstention_reason": "The report recommends school access to mental-health counsellors but does not state a counsellor-to-student ratio.",
+      "missing_evidence_check": {
+        "scope": "Full PDF text, especially PDF pages 64-67 and 108-111",
+        "searched_terms": [
+          "counsellor-to-student",
+          "counselor-to-student",
+          "mental health counsellors",
+          "school counsellors",
+          "student-to-counsellor ratio"
+        ],
+        "manual_confirmation_required": true
+      }
+    },
+    {
+      "question_id": "D7-22",
+      "answerability": "insufficient_evidence",
+      "expected_answer": null,
+      "abstention_reason": "The report discusses existing assistance amounts and models universal benefits, but does not commit to a specific future monthly VND amount for every child under 18.",
+      "missing_evidence_check": {
+        "scope": "Full PDF text, especially PDF pages 82-87",
+        "searched_terms": [
+          "universal child benefit",
+          "monthly amount",
+          "VND per child",
+          "under age 18",
+          "2045"
+        ],
+        "manual_confirmation_required": true
+      }
+    },
+    {
+      "question_id": "D7-23",
+      "answerability": "insufficient_evidence",
+      "expected_answer": null,
+      "abstention_reason": "The report discusses climate risks and resilience but does not give a quantified commitment for the number of climate-resilient schools to construct by 2045.",
+      "missing_evidence_check": {
+        "scope": "Full PDF text, especially PDF pages 105-112 and education recommendations on pages 43-48",
+        "searched_terms": [
+          "climate-resilient schools",
+          "number of schools",
+          "construct",
+          "2045"
+        ],
+        "manual_confirmation_required": true
+      }
+    },
+    {
+      "question_id": "D7-24",
+      "answerability": "insufficient_evidence",
+      "expected_answer": null,
+      "abstention_reason": "The report does not specify a child-specific climate-adaptation budget as a percentage of GDP for 2045.",
+      "missing_evidence_check": {
+        "scope": "Full PDF text, especially PDF pages 105-112",
+        "searched_terms": [
+          "climate adaptation budget",
+          "child-specific budget",
+          "percentage of GDP",
+          "2045"
+        ],
+        "manual_confirmation_required": true
+      }
+    }
+  ]
+}
