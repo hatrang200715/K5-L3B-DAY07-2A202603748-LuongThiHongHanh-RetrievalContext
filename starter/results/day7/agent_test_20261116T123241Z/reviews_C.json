@@ -1,0 +1,77 @@
+[
+  {
+    "query_id": "D7-16",
+    "context_grade": 0,
+    "context_rationale": "The context discusses child labour but does not contain the requested 2012–2023 survey rates; its 5.4% figure is a different statistic.",
+    "citation_support": [],
+    "citation_rationales": [],
+    "answer_grade": 0,
+    "answer_rationale": "False abstention: the requested survey trend is answerable in the report, but the retrieved context contains no evidence for the 2012–2023 rates."
+  },
+  {
+    "query_id": "D7-17",
+    "context_grade": 2,
+    "context_rationale": "Correctly states 17.0% to 12.7%; citation contains the modeled reduction.",
+    "citation_support": [
+      true
+    ],
+    "citation_rationales": [
+      "Citation is present in the final model context and the cited passage supports the answer."
+    ],
+    "answer_grade": 2,
+    "answer_rationale": "Correctly states 17.0% to 12.7%; citation contains the modeled reduction."
+  },
+  {
+    "query_id": "D7-18",
+    "context_grade": 2,
+    "context_rationale": "Correct score and global rank; cited context supports both.",
+    "citation_support": [
+      true
+    ],
+    "citation_rationales": [
+      "Citation is present in the final model context and the cited passage supports the answer."
+    ],
+    "answer_grade": 2,
+    "answer_rationale": "Correct score and global rank; cited context supports both."
+  },
+  {
+    "query_id": "D7-19",
+    "context_grade": 2,
+    "context_rationale": "Correct poorest/wealthiest comparison and age; citation contains both shares.",
+    "citation_support": [
+      true
+    ],
+    "citation_rationales": [
+      "Citation is present in the final model context and the cited passage supports the answer."
+    ],
+    "answer_grade": 2,
+    "answer_rationale": "Correct poorest/wealthiest comparison and age; citation contains both shares."
+  },
+  {
+    "query_id": "D7-20",
+    "context_grade": 0,
+    "context_rationale": "Abstains and retrieved context omits the 0.75–0.80 target.",
+    "citation_support": [],
+    "citation_rationales": [],
+    "answer_grade": 0,
+    "answer_rationale": "Abstains and retrieved context omits the 0.75–0.80 target."
+  },
+  {
+    "query_id": "D7-23",
+    "context_grade": null,
+    "context_rationale": "Correctly abstains; benchmark full-document check finds no quantified school-construction commitment.",
+    "citation_support": [],
+    "citation_rationales": [],
+    "abstention_correct": true,
+    "abstention_rationale": "Correctly abstains; benchmark full-document check finds no quantified school-construction commitment."
+  },
+  {
+    "query_id": "D7-24",
+    "context_grade": null,
+    "context_rationale": "Correctly abstains; benchmark full-document check finds no child-specific climate-budget percentage.",
+    "citation_support": [],
+    "citation_rationales": [],
+    "abstention_correct": true,
+    "abstention_rationale": "Correctly abstains; benchmark full-document check finds no child-specific climate-budget percentage."
+  }
+]

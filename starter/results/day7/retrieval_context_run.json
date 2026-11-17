@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-11-16T05:41:48.301169+00:00",
+  "completed_at": "2026-11-16T05:42:30.053535+00:00",
+  "source_id": "unicef-vietnam-2045-children",
+  "pdf_sha256": "1dc94fe84874fdf0f0955d523990a019d116cbdd752fdfd1f6cc021a428dbdd9",
+  "benchmark_sha256": "972d3e544d98d43b2d54d2bfff4af306f466264490c3bacb8aee94e61d2a7402",
+  "gold_sha256": "4a28e4a38c1ccd3bc462271b64876b26779b22d5233cb41843ceda4593448c87",
+  "embedding_model": "openrouter:openai/text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7",
+  "distance_metric": "cosine",
+  "top_k": 3,
+  "strategies": {
+    "A": "day7_A, unfiltered",
+    "B": "day7_B, unfiltered",
+    "C": "day7_C, section filter when provided by the question"
+  },
+  "context_construction": "Concatenate all top-3 chunks using the same page/section labels as RetrievalChatbot._context; no reranking, truncation, or answer-model call.",
+  "context_budget": "Top 3 chunks; character counts recorded, no token truncation.",
+  "query_count": 24,
+  "answerable_question_counts": {
+    "dev": 15,
+    "test": 5
+  },
+  "insufficient_evidence_questions_in_traces": 4,
+  "query_embedding_seconds": 40.1477,
+  "total_seconds": 41.7541,
+  "agent_model_called": false,
+  "api_cost": "Not captured by this runner."
+}

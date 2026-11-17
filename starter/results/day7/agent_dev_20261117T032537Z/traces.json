@@ -1,0 +1,1542 @@
+[
+  {
+    "query_id": "ADV-D-T01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.8789938339032233,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?",
+    "group": "table",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.5191767909564078,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.1971861249767244,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 11.566252249991521,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.1902152920374647,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What is the rightmost investment stage label on the x-axis of Figure 29?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.291984457988292,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.",
+    "group": "chart",
+    "question_type": "trend",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.2012041669804603,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?",
+    "group": "chart",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 11.248463124968112,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Figure 16, what was the national wasting prevalence in 2022?",
+    "group": "chart",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.2205328340642154,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.2393825419712812,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.19141733401920646,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.8493408750509843,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.2172522080363706,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.6183548329863697,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What annual return on investment does the report cite for high-quality early childhood education programmes?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 7.206322833080776,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 11.207150292000733,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.170799875049852,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.22418104193639,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.21326470794156194,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?",
+    "group": "table",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.56840187497437,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.296983874985017,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.262601582915522,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.227382209035568,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What is the rightmost investment stage label on the x-axis of Figure 29?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 80.08552816696465,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.",
+    "group": "chart",
+    "question_type": "trend",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.2195287089562044,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?",
+    "group": "chart",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.240398332942277,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Figure 16, what was the national wasting prevalence in 2022?",
+    "group": "chart",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.188706999993883,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.23081804194953293,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.740579584031366,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.3547457919921726,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 67.5348259160528,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 2.5615350829903036,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What annual return on investment does the report cite for high-quality early childhood education programmes?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.21795962494798,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 5.200514000025578,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.19654708390589803,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.20697916590143,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.601114250021055,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?",
+    "group": "table",
+    "question_type": "comparison",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.5258960420032963,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 7.2343867080053315,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.222860833047889,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.2313280829694122,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What is the rightmost investment stage label on the x-axis of Figure 29?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": {
+      "section": "annex"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.295118457986973,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.",
+    "group": "chart",
+    "question_type": "trend",
+    "filter": {
+      "section": "education"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 5.218318165978417,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?",
+    "group": "chart",
+    "question_type": "comparison",
+    "filter": {
+      "section": "health_nutrition"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 11.253694167011417,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Figure 16, what was the national wasting prevalence in 2022?",
+    "group": "chart",
+    "question_type": "direct",
+    "filter": {
+      "section": "health_nutrition"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.7624628329649568,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 75.77083470800426,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": {},
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.787063917028718,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": {
+      "section": "health_nutrition"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 76.45308800006751,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": {
+      "section": "overview"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.2072447499958798,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": {
+      "section": "overview"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.19224995793774724,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What annual return on investment does the report cite for high-quality early childhood education programmes?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": {
+      "section": "education"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.233147916966118,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.7835203339345753,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 4.216129541979171,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22627037507481873,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  }
+]

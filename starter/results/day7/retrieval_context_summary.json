@@ -1,0 +1,140 @@
+{
+  "A": {
+    "dev": {
+      "answerable_question_count": 15,
+      "hit_at_1": {
+        "hits": 9,
+        "total": 15,
+        "rate": 0.6
+      },
+      "evidence_hit_at_3": {
+        "hits": 12,
+        "total": 15,
+        "rate": 0.8
+      },
+      "context_evidence_rate": {
+        "hits": 12,
+        "total": 15,
+        "rate": 0.8
+      },
+      "mean_context_characters": 2136.0,
+      "mean_retrieval_seconds": 0.0289,
+      "filter_queries": null,
+      "filter_compliant_queries": null
+    },
+    "test": {
+      "answerable_question_count": 5,
+      "hit_at_1": {
+        "hits": 4,
+        "total": 5,
+        "rate": 0.8
+      },
+      "evidence_hit_at_3": {
+        "hits": 5,
+        "total": 5,
+        "rate": 1.0
+      },
+      "context_evidence_rate": {
+        "hits": 5,
+        "total": 5,
+        "rate": 1.0
+      },
+      "mean_context_characters": 2183.4,
+      "mean_retrieval_seconds": 0.0211,
+      "filter_queries": null,
+      "filter_compliant_queries": null
+    }
+  },
+  "B": {
+    "dev": {
+      "answerable_question_count": 15,
+      "hit_at_1": {
+        "hits": 6,
+        "total": 15,
+        "rate": 0.4
+      },
+      "evidence_hit_at_3": {
+        "hits": 9,
+        "total": 15,
+        "rate": 0.6
+      },
+      "context_evidence_rate": {
+        "hits": 9,
+        "total": 15,
+        "rate": 0.6
+      },
+      "mean_context_characters": 2170.0,
+      "mean_retrieval_seconds": 0.0229,
+      "filter_queries": null,
+      "filter_compliant_queries": null
+    },
+    "test": {
+      "answerable_question_count": 5,
+      "hit_at_1": {
+        "hits": 2,
+        "total": 5,
+        "rate": 0.4
+      },
+      "evidence_hit_at_3": {
+        "hits": 2,
+        "total": 5,
+        "rate": 0.4
+      },
+      "context_evidence_rate": {
+        "hits": 2,
+        "total": 5,
+        "rate": 0.4
+      },
+      "mean_context_characters": 2223.0,
+      "mean_retrieval_seconds": 0.0271,
+      "filter_queries": null,
+      "filter_compliant_queries": null
+    }
+  },
+  "C": {
+    "dev": {
+      "answerable_question_count": 15,
+      "hit_at_1": {
+        "hits": 8,
+        "total": 15,
+        "rate": 0.5333333333333333
+      },
+      "evidence_hit_at_3": {
+        "hits": 10,
+        "total": 15,
+        "rate": 0.6666666666666666
+      },
+      "context_evidence_rate": {
+        "hits": 10,
+        "total": 15,
+        "rate": 0.6666666666666666
+      },
+      "mean_context_characters": 2147.3,
+      "mean_retrieval_seconds": 0.0162,
+      "filter_queries": 15,
+      "filter_compliant_queries": 15
+    },
+    "test": {
+      "answerable_question_count": 5,
+      "hit_at_1": {
+        "hits": 2,
+        "total": 5,
+        "rate": 0.4
+      },
+      "evidence_hit_at_3": {
+        "hits": 2,
+        "total": 5,
+        "rate": 0.4
+      },
+      "context_evidence_rate": {
+        "hits": 2,
+        "total": 5,
+        "rate": 0.4
+      },
+      "mean_context_characters": 2206.2,
+      "mean_retrieval_seconds": 0.0154,
+      "filter_queries": 5,
+      "filter_compliant_queries": 5
+    }
+  }
+}

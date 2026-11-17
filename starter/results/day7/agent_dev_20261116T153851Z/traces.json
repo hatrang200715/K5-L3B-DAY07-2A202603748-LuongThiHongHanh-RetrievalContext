@@ -1,0 +1,1784 @@
+[
+  {
+    "query_id": "ADV-D-T01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "In the Red River Delta, 98.9% of households had access to improved sanitation facilities. [unicef-vietnam-2045-children-p70-fixed-0002]",
+    "citations": [
+      "unicef-vietnam-2045-children-p70-fixed-0002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 1 percentage of households in the Red River Delta access to improved sanitation facilities",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p70-fixed-0002",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 70,
+            "text": "\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 70
+            },
+            "score": 0.6951629087132492,
+            "visual_page": 70
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p70-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 70,
+            "text": "rural areas (19.5% piped into dwelling) compared to urban areas (57.1% piped into dwelling).\nThese differences are also stark at the regional level, and across wealth quintiles. Compared\nto high coverage in the Red River Delta (upwards of 50%), coverage of piped drinking water\nsources is significantly lower in Northern Midlands and Mountainous Area (16.5%), Central\nHighlands (12.2%), and Mekong River Delta (22.0%). Coverage of piped water is under 10%\namong households in the poorest quintile, compared to 72.3% among households in in the\nrichest wealth quintile. 242\nAdequate handwashing facilities with access to soap and water are critical for proper hygiene\nand prevention of communicable dis",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 70
+            },
+            "score": 0.6647204874929057,
+            "visual_page": 70
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p69-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 69,
+            "text": "d. Slight variations occur at the regional level, where\nthe Northern Midlands and Mountainous Area have the lowest access to improved drinking\nwater (93%). Similar disparities are visible among ethnic minority households and the poorest\nhouseholds.\nLarger discrepancies exist for access to improved sanitation facilities, which is near-universal\namong urban households (97.8%), compared to 89.1% in rural households. These gaps widen\nat the regional level, with the lowest access being in the Mekong River Delta region at 78.7%,\nfollowed by the Central Highlands region at 82.7%. 241 Moreover, when disaggregated by piped\ndrinking water sources and other sources, coverage of piped water sources is r",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 69
+            },
+            "score": 0.657795123278706,
+            "visual_page": 69
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p70-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\n\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82\n\n[unicef-vietnam-2045-children-p70-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\nrural areas (19.5% piped into dwelling) compared to urban areas (57.1% piped into dwelling).\nThese differences are also stark at the regional level, and across wealth quintiles. Compared\nto high coverage in the Red River Delta (upwards of 50%), coverage of piped drinking water\nsources is significantly lower in Northern Midlands and Mountainous Area (16.5%), Central\nHighlands (12.2%), and Mekong River Delta (22.0%). Coverage of piped water is under 10%\namong households in the poorest quintile, compared to 72.3% among households in in the\nrichest wealth quintile. 242\nAdequate handwashing facilities with access to soap and water are critical for proper hygiene\nand prevention of communicable dis",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p70-fixed-0002",
+          "unicef-vietnam-2045-children-p70-fixed-0000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 5.769332708907314,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "Table 1 percentage of households in the Red River Delta access to improved sanitation facilities"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "In the Red River Delta, 98.9% of households had access to improved sanitation facilities.",
+          "citations": [
+            "unicef-vietnam-2045-children-p70-fixed-0002"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p70-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\n\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82\n\n[unicef-vietnam-2045-children-p70-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\nrural areas (19.5% piped into dwelling) compared to urban areas (57.1% piped into dwelling).\nThese differences are also stark at the regional level, and across wealth quintiles. Compared\nto high coverage in the Red River Delta (upwards of 50%), coverage of piped drinking water\nsources is significantly lower in Northern Midlands and Mountainous Area (16.5%), Central\nHighlands (12.2%), and Mekong River Delta (22.0%). Coverage of piped water is under 10%\namong households in the poorest quintile, compared to 72.3% among households in in the\nrichest wealth quintile. 242\nAdequate handwashing facilities with access to soap and water are critical for proper hygiene\nand prevention of communicable dis",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p70-fixed-0002",
+          "unicef-vietnam-2045-children-p70-fixed-0000"
+        ],
+        "visual_pages": [
+          70,
+          69
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 52148,
+      "completion_tokens": 81,
+      "reported_cost_usd": 0.00786872,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?",
+    "group": "table",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "answered",
+    "answer": "In the South East region, the improved access percentages for households were as follows: 99.4% for improved drinking water sources, 98.3% for improved sanitation facilities, and 95.0% for access to handwashing facilities with water and soap. [unicef-vietnam-2045-children-p70-fixed-0002]",
+    "citations": [
+      "unicef-vietnam-2045-children-p70-fixed-0002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 1 improved water sanitation hygiene access percentages South East region",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p70-fixed-0001",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 70,
+            "text": "ies with access to soap and water are critical for proper hygiene\nand prevention of communicable diseases. Access to handwashing facilities with access to\nsoap and water is near universal among urban households (96.4%), compared to 87.8% among\nrural households. Adequate hand washing facilities are most available in the South East (95%)\nbut limited in the Central Highlands (78.1%).\nTable 1 presents the percentage of household members with access to improved water,\nsanitation and hygiene facilities according to area of residence, region, ethnicity of the household\nhead and wealth index quintile.\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\ni",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 70
+            },
+            "score": 0.7091054700258258,
+            "visual_page": 70
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p70-fixed-0002",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 70,
+            "text": "\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 70
+            },
+            "score": 0.6731388588118749,
+            "visual_page": 70
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p69-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 69,
+            "text": "d. Slight variations occur at the regional level, where\nthe Northern Midlands and Mountainous Area have the lowest access to improved drinking\nwater (93%). Similar disparities are visible among ethnic minority households and the poorest\nhouseholds.\nLarger discrepancies exist for access to improved sanitation facilities, which is near-universal\namong urban households (97.8%), compared to 89.1% in rural households. These gaps widen\nat the regional level, with the lowest access being in the Mekong River Delta region at 78.7%,\nfollowed by the Central Highlands region at 82.7%. 241 Moreover, when disaggregated by piped\ndrinking water sources and other sources, coverage of piped water sources is r",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 69
+            },
+            "score": 0.6354702520308898,
+            "visual_page": 69
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p70-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\nies with access to soap and water are critical for proper hygiene\nand prevention of communicable diseases. Access to handwashing facilities with access to\nsoap and water is near universal among urban households (96.4%), compared to 87.8% among\nrural households. Adequate hand washing facilities are most available in the South East (95%)\nbut limited in the Central Highlands (78.1%).\nTable 1 presents the percentage of household members with access to improved water,\nsanitation and hygiene facilities according to area of residence, region, ethnicity of the household\nhead and wealth index quintile.\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\ni\n\n[unicef-vietnam-2045-children-p70-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\n\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p70-fixed-0001",
+          "unicef-vietnam-2045-children-p70-fixed-0002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 5.5707512920489535,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "Table 1 improved water sanitation hygiene access percentages South East region"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "In the South East region, the improved access percentages for households were as follows: 99.4% for improved drinking water sources, 98.3% for improved sanitation facilities, and 95.0% for access to handwashing facilities with water and soap.",
+          "citations": [
+            "unicef-vietnam-2045-children-p70-fixed-0002"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p70-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\nies with access to soap and water are critical for proper hygiene\nand prevention of communicable diseases. Access to handwashing facilities with access to\nsoap and water is near universal among urban households (96.4%), compared to 87.8% among\nrural households. Adequate hand washing facilities are most available in the South East (95%)\nbut limited in the Central Highlands (78.1%).\nTable 1 presents the percentage of household members with access to improved water,\nsanitation and hygiene facilities according to area of residence, region, ethnicity of the household\nhead and wealth index quintile.\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\ni\n\n[unicef-vietnam-2045-children-p70-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\n\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p70-fixed-0001",
+          "unicef-vietnam-2045-children-p70-fixed-0002"
+        ],
+        "visual_pages": [
+          70,
+          69
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 52136,
+      "completion_tokens": 111,
+      "reported_cost_usd": 0.00788544,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "According to Table 1, the access percentages for households in Ho Chi Minh City were as follows: 99.6% for improved drinking water sources, 98.4% for improved sanitation facilities, and 93.8% for access to handwashing facilities with water and soap. [unicef-vietnam-2045-children-p70-fixed-0002]",
+    "citations": [
+      "unicef-vietnam-2045-children-p70-fixed-0002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 1 water sanitation hygiene access percentages Ho Chi Minh City",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p70-fixed-0002",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 70,
+            "text": "\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 70
+            },
+            "score": 0.717528673506562,
+            "visual_page": 70
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p71-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 71,
+            "text": "WATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nWealth index\nquintile\nPoorest 93.0 69.6 72.4\nSecond 98.5 93.2 89.7\nMiddle 99.1 98.6 94.7\nFourth 99.8 99.2 97.8\nRichest 99.9 100.0 99.0\nSource: SDGCW Survey2020‑2021\nAccess to WASH facilities in Viet Nam varies significantly by ethnicity, wealth, and gender.\nAcross all indicators, members living with a household head of Mong ethnicity faced the\ngreatest challenges in access to water, sanitation, and handwashing (84.1%, 46.4% and 50.3%\nrespectively). Individuals belonging to the poorest wealth quintile had the least access to WASH\nfacili",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 71
+            },
+            "score": 0.6757091131524735,
+            "visual_page": 71
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p69-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 69,
+            "text": "According to the Sustainable Development Goals indicators on Children and Women Survey\n2020-2021 (SDGCW), household members have near-universal access to improved drinking\nwater sources 233 within reachable distance, use basic drinking water services 234, and have\naccess to a handwashing facility with water and soap. Approximately eight in ten of the\npopulation use an appropriate water treatment method. 95.4% of girls aged 15-19 years use\nappropriate menstrual hygiene materials with a private place to wash and change while at\nhome. Still, 3% of households in Viet Nam lacked access to drinking water due to issues like\nseasonal water shortages (71.6%)235236, while 92.1% of the population had i",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 69
+            },
+            "score": 0.6592774988055273,
+            "visual_page": 69
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p70-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\n\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82\n\n[unicef-vietnam-2045-children-p71-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 71]\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nWealth index\nquintile\nPoorest 93.0 69.6 72.4\nSecond 98.5 93.2 89.7\nMiddle 99.1 98.6 94.7\nFourth 99.8 99.2 97.8\nRichest 99.9 100.0 99.0\nSource: SDGCW Survey2020‑2021\nAccess to WASH facilities in Viet Nam varies significantly by ethnicity, wealth, and gender.\nAcross all indicators, members living with a household head of Mong ethnicity faced the\ngreatest challenges in access to water, sanitation, and handwashing (84.1%, 46.4% and 50.3%\nrespectively). Individuals belonging to the poorest wealth quintile had the least access to WASH\nfacili",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p70-fixed-0002",
+          "unicef-vietnam-2045-children-p71-fixed-0000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 5.521136999945156,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "Table 1 water sanitation hygiene access percentages Ho Chi Minh City"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "According to Table 1, the access percentages for households in Ho Chi Minh City were as follows: 99.6% for improved drinking water sources, 98.4% for improved sanitation facilities, and 93.8% for access to handwashing facilities with water and soap.",
+          "citations": [
+            "unicef-vietnam-2045-children-p70-fixed-0002"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p70-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 70]\n\nTable 1: Access to improved drinking water sources (2020-2021)\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nNational National 98.1 92.1 90.7\nArea of\nresidence\nUrban 99.6 97.8 96.4\nRural 97.2 89.1 87.8\nRegion\nRed River Delta 99.6 98.9 92.2\nHa Noi 99.4 98.7 97.4\nNorthern Midlands and\nMountainous Area 93.9 87.7 84.9\nNorth Central and\nCentral Coastal Area 97.5 95.1 92.1\nCentral Highlands 96.8 82.7 78.1\nSouth East 99.4 98.3 95.0\nHo Chi Minh City 99.6 98.4 93.8\nMekong River Delta 98.5 78.7 91.3\nEthnicity of\nHousehold\nhead\nKinh and Hoa 99.0 94.6 93.4\nTay, Thai, Muong, Nung 90.9 89.4 82\n\n[unicef-vietnam-2045-children-p71-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 71]\nWATER SANITATION HYGIENE\nAccess to\nimproved\ndrinking water\nsources\nAccess to\nimproved\nsanitation\nfacilities\nAccess to\nhandwashing\nfacility with water\nand soap\nWealth index\nquintile\nPoorest 93.0 69.6 72.4\nSecond 98.5 93.2 89.7\nMiddle 99.1 98.6 94.7\nFourth 99.8 99.2 97.8\nRichest 99.9 100.0 99.0\nSource: SDGCW Survey2020‑2021\nAccess to WASH facilities in Viet Nam varies significantly by ethnicity, wealth, and gender.\nAcross all indicators, members living with a household head of Mong ethnicity faced the\ngreatest challenges in access to water, sanitation, and handwashing (84.1%, 46.4% and 50.3%\nrespectively). Individuals belonging to the poorest wealth quintile had the least access to WASH\nfacili",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p70-fixed-0002",
+          "unicef-vietnam-2045-children-p71-fixed-0000"
+        ],
+        "visual_pages": [
+          70,
+          71,
+          69
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 52204,
+      "completion_tokens": 115,
+      "reported_cost_usd": 0.007898039999999999,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 1.8012171250302345,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "Figure 23 map green legend category open defecation percentage range"
+        }
+      }
+    ],
+    "usage": {
+      "chat_requests": 1,
+      "embedding_requests": 0,
+      "prompt_tokens": 247,
+      "completion_tokens": 25,
+      "reported_cost_usd": 5.20500000000014e-05,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.19471558404620737,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What is the rightmost investment stage label on the x-axis of Figure 29?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.18400858296081424,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.",
+    "group": "chart",
+    "question_type": "trend",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.220175625057891,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?",
+    "group": "chart",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.25146312499418855,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In Figure 16, what was the national wasting prevalence in 2022?",
+    "group": "chart",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.20531662506982684,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2137606249889359,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22443420789204538,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2222020000917837,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 3.649646250065416,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.20555304095614702,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What annual return on investment does the report cite for high-quality early childhood education programmes?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.24850454204715788,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U01",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.21960650000255555,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U02",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22603166697081178,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U03",
+    "split": "dev",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2582321669906378,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.23774054204113781,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?",
+    "group": "table",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.36828249995596707,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22728279198054224,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2638842079322785,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.21880162507295609,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What is the rightmost investment stage label on the x-axis of Figure 29?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.21064945799298584,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.",
+    "group": "chart",
+    "question_type": "trend",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2274802909232676,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?",
+    "group": "chart",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.4197525840718299,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "In Figure 16, what was the national wasting prevalence in 2022?",
+    "group": "chart",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2543001250596717,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.35944516595918685,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.24309204204473644,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.253164041088894,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.1886173749808222,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22121712495572865,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What annual return on investment does the report cite for high-quality early childhood education programmes?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.1973416249966249,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U01",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.30178437498398125,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U02",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.5418051660526544,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U03",
+    "split": "dev",
+    "strategy": "B",
+    "index_strategy": "day7_B",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.1988298330688849,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Table 1, what percentage of households in the Red River Delta had access to improved sanitation facilities?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.21702408301644027,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Table 1, what were the improved water, sanitation, and hygiene access percentages for households in the South East region?",
+    "group": "table",
+    "question_type": "comparison",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22760483401361853,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-T03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "According to Table 1, what were the water, sanitation, and hygiene access percentages for households in Ho Chi Minh City?",
+    "group": "table",
+    "question_type": "direct",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2517044999403879,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "On the Figure 23 map, what percentage range does the green legend category represent for the population practicing open defecation?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.227864833897911,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Which named region is labeled on the Figure 23 map in Viet Nam's south-central interior?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.20630362501833588,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-I03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What is the rightmost investment stage label on the x-axis of Figure 29?",
+    "group": "image_diagram",
+    "question_type": "visual",
+    "filter": {
+      "section": "annex"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.6968602919951081,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Reading Figure 2, how did lower-secondary school attendance change between 2014 and 2020-21? Give both values.",
+    "group": "chart",
+    "question_type": "trend",
+    "filter": {
+      "section": "education"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.19127858406864107,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Figure 16, which region has the highest underweight prevalence in 2022, and what is its rate?",
+    "group": "chart",
+    "question_type": "comparison",
+    "filter": {
+      "section": "health_nutrition"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.929558957926929,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-C03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "In Figure 16, what was the national wasting prevalence in 2022?",
+    "group": "chart",
+    "question_type": "direct",
+    "filter": {
+      "section": "health_nutrition"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.20960158400703222,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Using the Ho Chi Minh City row of Table 1 and the preceding WASH paragraph, compare improved drinking-water access with the urban piped-water rate. Give both percentages and their percentage-point difference.",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": {
+      "section": "wash"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22878745896741748,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Combine Table 1's South East sanitation rate with Table 2's 2024 2/7-threshold child-poverty rate for the Southeast. What is the percentage-point difference?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": {},
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.24727162497583777,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-M03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "Using Figure 16, compare Central Highlands and whole-country wasting prevalence in 2022. How many percentage points higher was the Central Highlands rate?",
+    "group": "multi_hop",
+    "question_type": "comparison",
+    "filter": {
+      "section": "health_nutrition"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.42973387497477233,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "How many children under age 18 live in Viet Nam, and roughly what fraction of the country's population do they represent?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": {
+      "section": "overview"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2443447500700131,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What percentage of children under 16 remained multidimensionally poor in Viet Nam in 2024?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": {
+      "section": "overview"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.22009895800147206,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-X03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What annual return on investment does the report cite for high-quality early childhood education programmes?",
+    "group": "text",
+    "question_type": "direct",
+    "filter": {
+      "section": "education"
+    },
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.43970808293670416,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U01",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What minimum mental-health-counsellor-to-student ratio does the report mandate for every school?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.5802222919883206,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U02",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "What exact monthly VND amount does the report commit to paying universally to every child under 18 by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2256336669670418,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "ADV-D-U03",
+    "split": "dev",
+    "strategy": "C",
+    "index_strategy": "day7_C",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "group": "insufficient_evidence",
+    "question_type": "abstention",
+    "filter": null,
+    "status": "error",
+    "answer": null,
+    "citations": [],
+    "events": [],
+    "error": {
+      "type": "RuntimeError",
+      "message": "OpenRouter HTTP 402: {\"error\":{\"message\":\"Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+    },
+    "elapsed_seconds": 0.2325870420318097,
+    "model_tool_calls": [],
+    "usage": {
+      "chat_requests": 0,
+      "embedding_requests": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reported_cost_usd": 0.0,
+      "cost_reporting_missing": 0
+    }
+  }
+]

@@ -1,0 +1,60 @@
+source:
+  source_id: unicef-vietnam-2045-children
+  title: "Children at the Heart of Viet Nam's New Era: A Comprehensive Vision for Children's Development Towards 2045"
+  report_title: "Technical Report on the Comprehensive Development of Children to Inform Viet Nam 2045"
+  authoring_organization: UNICEF Viet Nam
+  publication_date: "November 2025"
+  source_path_or_url: "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf"
+  local_path: "../Final - Designed Viet Nam 2045 Full Report-En.pdf.pdf"
+  accessed_at: "2026-11-16"
+  snapshot_sha256: "1dc94fe84874fdf0f0955d523990a019d116cbdd752fdfd1f6cc021a428dbdd9"
+  physical_page_count: 136
+  counted_content_page_count: 107
+  counted_content_page_ranges:
+    - [9, 14]
+    - [16, 114]
+    - [134, 135]
+  page_numbering: >-
+    All evidence page numbers in the benchmark are 1-based physical PDF page
+    numbers, not printed page numbers. The selected pages include 105 main-report
+    pages (PDF pages 9-14 and 16-114) and two substantive annex pages (134-135).
+  excluded_pages:
+    - pages: [1, 3]
+      reason: "Cover and repeated title pages"
+    - pages: [2, 2]
+      reason: "Illustration disclaimer"
+    - pages: [4, 7]
+      reason: "Table of contents, lists of figures/tables, and acronyms"
+    - pages: [8, 8]
+      reason: "Acknowledgements"
+    - pages: [15, 15]
+      reason: "Section divider containing only an AI-generated-content notice"
+    - pages: [115, 133]
+      reason: "References"
+    - pages: [136, 136]
+      reason: "Contact information"
+  rights_and_handling: >-
+    The PDF is hosted by UNICEF. No explicit open-reuse license was verified
+    from the provided file; cite UNICEF and verify permissions before
+    redistribution. The benchmark stores only short evidence excerpts and
+    expects the full PDF to remain a separately obtained local input.
+  extraction:
+    library: "pypdf"
+    normalization: "Unicode NFC and whitespace collapse for evidence matching"
+    ocr_used: false
+    extraction_check: "All 107 counted content pages contain extractable text."
+  metadata_schema:
+    filter_field: section
+    assignment_rule: "Assign from 1-based physical PDF page ranges; keep the value on each chunk."
+    values:
+      introduction: "PDF pages 9-13"
+      methodology: "PDF page 14"
+      case_for_investment: "PDF page 16"
+      education: "PDF pages 17-48"
+      health_nutrition: "PDF pages 49-67"
+      wash: "PDF pages 68-77"
+      social_protection: "PDF pages 78-88"
+      child_protection: "PDF pages 89-99"
+      cross_cutting: "PDF pages 100-112"
+      conclusion: "PDF pages 113-114"
+      annex: "PDF pages 134-135"

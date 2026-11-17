@@ -1,0 +1,1061 @@
+[
+  {
+    "query_id": "D7-16",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "According to the national child-labour surveys cited in the report, how did the reported rate change from 2012 to 2023?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The reported rate of child labour in Vietnam decreased from 9.6% in 2012 to 5.4% in 2018, and further down to 1.31% in 2023 according to national child labour surveys. [unicef-vietnam-2045-children-p90-fixed-0003]",
+    "citations": [
+      "unicef-vietnam-2045-children-p90-fixed-0003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "national child-labour surveys 2012 to 2023 reported rate change",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p90-fixed-0003",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 90,
+            "text": "t Nam has also ratified international conventions to combat child labour and has shown\nprogress in reducing child labour, which fell from 9.6% in 2012 to 5.4% in 2018 and down to\n1.31% in 2023 according to national child labour surveys. However, these figures only account\nfor children involved in “economic activities.” When the definition is expanded to include domestic\nwork—such as cooking, cleaning, or caring for siblings, which places a significant burden on\nchildren, especially girls—the rate is higher. Data from the 2021 SDGWC survey by the General\nStatistics Office (GSO) and UNICEF shows that 6.9% of children aged 5–17 were still engaged\nin child labour, particularly in rural areas, et",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 90
+            },
+            "score": 0.6294245547274994
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p92-fixed-0001",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 92,
+            "text": "rticipation in child labour. 331 According to recent data, among children aged 5-17 years, 6.9\npercent of children are involved in child labour – accounting for both economic activity and\ndomestic chores - with higher prevalence among children living in Northern Midlands and\nMountainous Areas (10.1%) and Central Highlands (13.8%), among children not attending\nschool (26.2%), among children in rural areas (8.1% vs 4.6% in urban areas), and among children\nliving with an ethnic minority household head (11.0-25.5%) compared to Kinh and Hoa (5.4%).\nRegularly gathered (administrative) data on child protection, especially on child labour and child\nsexual exploitation and abuse, remains limited.\nIn ",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 92
+            },
+            "score": 0.5880103053562917
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p90-fixed-0006",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 90,
+            "text": "ICEF 2022.\n315 General Statistics Office of Viet Nam (GSO) and United Nations Children’s Fund (UNICEF) 2021.\n316 ECPAT , INTERPOL, and UNICEF 2022.\n317 Ministry of Planning and Investment (MPI), German Development Agency (GIZ), and United Nations (UN) Viet Nam\n2023.\n318 As defined in the SDGCW 2020-21 survey as “children involved in economic activities above the age-specific\nthresholds, children involved in household chores above the age-specific thresholds, and children involved in\nhazardous work”. General Statistics Office of Viet Nam (GSO) and United Nations Children’s Fund (UNICEF) 2021.\n319 ILO and Ministry of Labour, Invalids and Social Affairs of Viet Nam 2020.\n320 Ibid.\nCHILDREN AT T",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 90
+            },
+            "score": 0.5871974753040449
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p90-fixed-0003 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 90]\nt Nam has also ratified international conventions to combat child labour and has shown\nprogress in reducing child labour, which fell from 9.6% in 2012 to 5.4% in 2018 and down to\n1.31% in 2023 according to national child labour surveys. However, these figures only account\nfor children involved in “economic activities.” When the definition is expanded to include domestic\nwork—such as cooking, cleaning, or caring for siblings, which places a significant burden on\nchildren, especially girls—the rate is higher. Data from the 2021 SDGWC survey by the General\nStatistics Office (GSO) and UNICEF shows that 6.9% of children aged 5–17 were still engaged\nin child labour, particularly in rural areas, et\n\n[unicef-vietnam-2045-children-p92-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 92]\nrticipation in child labour. 331 According to recent data, among children aged 5-17 years, 6.9\npercent of children are involved in child labour – accounting for both economic activity and\ndomestic chores - with higher prevalence among children living in Northern Midlands and\nMountainous Areas (10.1%) and Central Highlands (13.8%), among children not attending\nschool (26.2%), among children in rural areas (8.1% vs 4.6% in urban areas), and among children\nliving with an ethnic minority household head (11.0-25.5%) compared to Kinh and Hoa (5.4%).\nRegularly gathered (administrative) data on child protection, especially on child labour and child\nsexual exploitation and abuse, remains limited.\nIn \n\n[unicef-vietnam-2045-children-p90-fixed-0006 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 90]\nICEF 2022.\n315 General Statistics Office of Viet Nam (GSO) and United Nations Children’s Fund (UNICEF) 2021.\n316 ECPAT , INTERPOL, and UNICEF 2022.\n317 Ministry of Planning and Investment (MPI), German Development Agency (GIZ), and United Nations (UN) Viet Nam\n2023.\n318 As defined in the SDGCW 2020-21 survey as “children involved in economic activities above the age-specific\nthresholds, children involved in household chores above the age-specific thresholds, and children involved in\nhazardous work”. General Statistics Office of Viet Nam (GSO) and United Nations Children’s Fund (UNICEF) 2021.\n319 ILO and Ministry of Labour, Invalids and Social Affairs of Viet Nam 2020.\n320 Ibid.\nCHILDREN AT T",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p90-fixed-0003",
+          "unicef-vietnam-2045-children-p92-fixed-0001",
+          "unicef-vietnam-2045-children-p90-fixed-0006"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 5.65522220893763,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "national child-labour surveys 2012 to 2023 reported rate change"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "The reported rate of child labour in Vietnam decreased from 9.6% in 2012 to 5.4% in 2018, and further down to 1.31% in 2023 according to national child labour surveys.",
+          "citations": [
+            "unicef-vietnam-2045-children-p90-fixed-0003"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p90-fixed-0003 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 90]\nt Nam has also ratified international conventions to combat child labour and has shown\nprogress in reducing child labour, which fell from 9.6% in 2012 to 5.4% in 2018 and down to\n1.31% in 2023 according to national child labour surveys. However, these figures only account\nfor children involved in “economic activities.” When the definition is expanded to include domestic\nwork—such as cooking, cleaning, or caring for siblings, which places a significant burden on\nchildren, especially girls—the rate is higher. Data from the 2021 SDGWC survey by the General\nStatistics Office (GSO) and UNICEF shows that 6.9% of children aged 5–17 were still engaged\nin child labour, particularly in rural areas, et\n\n[unicef-vietnam-2045-children-p92-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 92]\nrticipation in child labour. 331 According to recent data, among children aged 5-17 years, 6.9\npercent of children are involved in child labour – accounting for both economic activity and\ndomestic chores - with higher prevalence among children living in Northern Midlands and\nMountainous Areas (10.1%) and Central Highlands (13.8%), among children not attending\nschool (26.2%), among children in rural areas (8.1% vs 4.6% in urban areas), and among children\nliving with an ethnic minority household head (11.0-25.5%) compared to Kinh and Hoa (5.4%).\nRegularly gathered (administrative) data on child protection, especially on child labour and child\nsexual exploitation and abuse, remains limited.\nIn \n\n[unicef-vietnam-2045-children-p90-fixed-0006 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 90]\nICEF 2022.\n315 General Statistics Office of Viet Nam (GSO) and United Nations Children’s Fund (UNICEF) 2021.\n316 ECPAT , INTERPOL, and UNICEF 2022.\n317 Ministry of Planning and Investment (MPI), German Development Agency (GIZ), and United Nations (UN) Viet Nam\n2023.\n318 As defined in the SDGCW 2020-21 survey as “children involved in economic activities above the age-specific\nthresholds, children involved in household chores above the age-specific thresholds, and children involved in\nhazardous work”. General Statistics Office of Viet Nam (GSO) and United Nations Children’s Fund (UNICEF) 2021.\n319 ILO and Ministry of Labour, Invalids and Social Affairs of Viet Nam 2020.\n320 Ibid.\nCHILDREN AT T",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p90-fixed-0003",
+          "unicef-vietnam-2045-children-p92-fixed-0001",
+          "unicef-vietnam-2045-children-p90-fixed-0006"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 1199,
+      "completion_tokens": 111,
+      "reported_cost_usd": 0.00024437,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "D7-17",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "In the social-protection chapter, how much could the modeled universal child benefit reduce Viet Nam's child income-poverty rate?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The modeled universal child benefit (UCB) could reduce Viet Nam's child income-poverty rate from 17.0% to 12.7%. [unicef-vietnam-2045-children-p84-fixed-0000]",
+    "citations": [
+      "unicef-vietnam-2045-children-p84-fixed-0000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "modeled universal child benefit reduce Viet Nam's child income-poverty rate",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p84-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 84,
+            "text": "the child income poverty rate for Viet Nam could be reduced from 17.0% to 12.7% via the\nintroduction of a UCB, with a benefit amount equivalent to the average payment per child per\nmonth in the 29 countries that are currently providing a UCB (equivalent to 6% of the average\nwage in respective countries).289\nThese options demonstrate the potentially transformative effect of a UCB for reducing child\npoverty and promoting equity in Viet Nam, exceeding the effects of alternative, fragmented and\nmore targeted policies. Further, by promoting equitable access to social protection, Viet Nam\ncan support middle-class expansion while ensuring the financial sustainability of these systems\nthrough a wide",
+            "metadata": {
+              "section": "social_protection",
+              "pdf_page": 84
+            },
+            "score": 0.7583617524620345
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p86-fixed-0003",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 86,
+            "text": "and social\nprotection. This will ensure adequate coverage, reduce child poverty, and enhance long-\nterm human capital development. Simulations of the affordability 299, poverty reduction\neffects300, high returns and multiplier effects of such policies for economic growth 301 in\nViet Nam justify this investment. Evidence from Mongolia’s Child Money Programme\nand Thailand’s Child Support Grant in the region highlight the transformative potential\nof universal child benefits in addressing intergenerational poverty. 302 Viet Nam has the\nopportunity to replicate such models to foster equity and resilience in its social protection\nframework. A well-designed universal child benefit (UCB) not only en",
+            "metadata": {
+              "section": "social_protection",
+              "pdf_page": 86
+            },
+            "score": 0.7048492290656616
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p82-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 82,
+            "text": " adjusted to almost USD 20 (around 500,000 VND) based on the decree\n20 revised in 2024280, remaining far below regional and global standards.281 Even countries with\nsimilar economic status such as Thailand and Indonesia have made substantial improvements,\nwith child benefit coverage increasing to 31.8% and 43.6%, respectively. In contrast, the average\nfor upper-middle-income countries is 27.8%. While Viet Nam has made progress in expanding\ncash benefits and other social protection programs, these comparisons suggest room for growth\nin child-targeted social protection mechanisms. This low coverage highlights significant gaps in\nViet Nam’s social protection system, particularly in ensuring ade",
+            "metadata": {
+              "section": "social_protection",
+              "pdf_page": 82
+            },
+            "score": 0.6786874933181086
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p84-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 84]\nthe child income poverty rate for Viet Nam could be reduced from 17.0% to 12.7% via the\nintroduction of a UCB, with a benefit amount equivalent to the average payment per child per\nmonth in the 29 countries that are currently providing a UCB (equivalent to 6% of the average\nwage in respective countries).289\nThese options demonstrate the potentially transformative effect of a UCB for reducing child\npoverty and promoting equity in Viet Nam, exceeding the effects of alternative, fragmented and\nmore targeted policies. Further, by promoting equitable access to social protection, Viet Nam\ncan support middle-class expansion while ensuring the financial sustainability of these systems\nthrough a wide\n\n[unicef-vietnam-2045-children-p86-fixed-0003 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nand social\nprotection. This will ensure adequate coverage, reduce child poverty, and enhance long-\nterm human capital development. Simulations of the affordability 299, poverty reduction\neffects300, high returns and multiplier effects of such policies for economic growth 301 in\nViet Nam justify this investment. Evidence from Mongolia’s Child Money Programme\nand Thailand’s Child Support Grant in the region highlight the transformative potential\nof universal child benefits in addressing intergenerational poverty. 302 Viet Nam has the\nopportunity to replicate such models to foster equity and resilience in its social protection\nframework. A well-designed universal child benefit (UCB) not only en\n\n[unicef-vietnam-2045-children-p82-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 82]\n adjusted to almost USD 20 (around 500,000 VND) based on the decree\n20 revised in 2024280, remaining far below regional and global standards.281 Even countries with\nsimilar economic status such as Thailand and Indonesia have made substantial improvements,\nwith child benefit coverage increasing to 31.8% and 43.6%, respectively. In contrast, the average\nfor upper-middle-income countries is 27.8%. While Viet Nam has made progress in expanding\ncash benefits and other social protection programs, these comparisons suggest room for growth\nin child-targeted social protection mechanisms. This low coverage highlights significant gaps in\nViet Nam’s social protection system, particularly in ensuring ade",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p84-fixed-0000",
+          "unicef-vietnam-2045-children-p86-fixed-0003",
+          "unicef-vietnam-2045-children-p82-fixed-0005"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 4.82013645907864,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "modeled universal child benefit reduce Viet Nam's child income-poverty rate"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "The modeled universal child benefit (UCB) could reduce Viet Nam's child income-poverty rate from 17.0% to 12.7%.",
+          "citations": [
+            "unicef-vietnam-2045-children-p84-fixed-0000"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p84-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 84]\nthe child income poverty rate for Viet Nam could be reduced from 17.0% to 12.7% via the\nintroduction of a UCB, with a benefit amount equivalent to the average payment per child per\nmonth in the 29 countries that are currently providing a UCB (equivalent to 6% of the average\nwage in respective countries).289\nThese options demonstrate the potentially transformative effect of a UCB for reducing child\npoverty and promoting equity in Viet Nam, exceeding the effects of alternative, fragmented and\nmore targeted policies. Further, by promoting equitable access to social protection, Viet Nam\ncan support middle-class expansion while ensuring the financial sustainability of these systems\nthrough a wide\n\n[unicef-vietnam-2045-children-p86-fixed-0003 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nand social\nprotection. This will ensure adequate coverage, reduce child poverty, and enhance long-\nterm human capital development. Simulations of the affordability 299, poverty reduction\neffects300, high returns and multiplier effects of such policies for economic growth 301 in\nViet Nam justify this investment. Evidence from Mongolia’s Child Money Programme\nand Thailand’s Child Support Grant in the region highlight the transformative potential\nof universal child benefits in addressing intergenerational poverty. 302 Viet Nam has the\nopportunity to replicate such models to foster equity and resilience in its social protection\nframework. A well-designed universal child benefit (UCB) not only en\n\n[unicef-vietnam-2045-children-p82-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 82]\n adjusted to almost USD 20 (around 500,000 VND) based on the decree\n20 revised in 2024280, remaining far below regional and global standards.281 Even countries with\nsimilar economic status such as Thailand and Indonesia have made substantial improvements,\nwith child benefit coverage increasing to 31.8% and 43.6%, respectively. In contrast, the average\nfor upper-middle-income countries is 27.8%. While Viet Nam has made progress in expanding\ncash benefits and other social protection programs, these comparisons suggest room for growth\nin child-targeted social protection mechanisms. This low coverage highlights significant gaps in\nViet Nam’s social protection system, particularly in ensuring ade",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p84-fixed-0000",
+          "unicef-vietnam-2045-children-p86-fixed-0003",
+          "unicef-vietnam-2045-children-p82-fixed-0005"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 1101,
+      "completion_tokens": 93,
+      "reported_cost_usd": 0.00021913000000000005,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "D7-18",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What was Viet Nam's score and global rank on the Children's Climate Risk Index 2021?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Viet Nam scored 6.8 on the Children's Climate Risk Index 2021 and was ranked 37th globally. [unicef-vietnam-2045-children-p105-fixed-0004]",
+    "citations": [
+      "unicef-vietnam-2045-children-p105-fixed-0004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Viet Nam score global rank Children's Climate Risk Index 2021",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p105-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 105,
+            "text": "and landslides, biodiversity loss, drought, saltwater intrusion, storm surges\nand typhoons. These impacts then have tertiary impacts: decreased agricultural yields,\ncompromised infrastructure of schools and homes, water scarcity, poor water quality and\nmigration.396\nChildren are particularly vulnerable to these impacts due to their stage of growth and development,\ndependence on caregivers, and lack of influence in decision-making processes.397 According to\nthe Children’s Climate Risk Index 2021, Viet Nam scores 6.8 (ranked 37 globally), with climate\nand environmental risks rated very high (8.8) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face ",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 105
+            },
+            "score": 0.6925220358174263
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p106-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 106,
+            "text": "89% regionally and 73% globally, and 94.6% face four or more types of shocks.399 Despite some\nrecognition of children in climate change policy and strategies in Viet Nam, there are notable\ngaps in child-specific references across the national legal and policy landscape. There are also\nrelatively few legal instruments that recognise children’s rights in relation to climate change to\nexpress their views and to participate.400\nEmerging evidence highlights a strong correlation between climate change and poverty,\nparticularly impacting children. Children from the poorest households are disproportionately\naffected by the economic consequences of extreme weather events. In Viet Nam, half of the\nchi",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 106
+            },
+            "score": 0.6830900068268304
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p105-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 105,
+            "text": ") and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 105
+            },
+            "score": 0.6577769087090231
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p105-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\nand landslides, biodiversity loss, drought, saltwater intrusion, storm surges\nand typhoons. These impacts then have tertiary impacts: decreased agricultural yields,\ncompromised infrastructure of schools and homes, water scarcity, poor water quality and\nmigration.396\nChildren are particularly vulnerable to these impacts due to their stage of growth and development,\ndependence on caregivers, and lack of influence in decision-making processes.397 According to\nthe Children’s Climate Risk Index 2021, Viet Nam scores 6.8 (ranked 37 globally), with climate\nand environmental risks rated very high (8.8) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face \n\n[unicef-vietnam-2045-children-p106-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 106]\n89% regionally and 73% globally, and 94.6% face four or more types of shocks.399 Despite some\nrecognition of children in climate change policy and strategies in Viet Nam, there are notable\ngaps in child-specific references across the national legal and policy landscape. There are also\nrelatively few legal instruments that recognise children’s rights in relation to climate change to\nexpress their views and to participate.400\nEmerging evidence highlights a strong correlation between climate change and poverty,\nparticularly impacting children. Children from the poorest households are disproportionately\naffected by the economic consequences of extreme weather events. In Viet Nam, half of the\nchi\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p105-fixed-0004",
+          "unicef-vietnam-2045-children-p106-fixed-0000",
+          "unicef-vietnam-2045-children-p105-fixed-0005"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 4.783647874952294,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "Viet Nam score global rank Children's Climate Risk Index 2021"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "Viet Nam scored 6.8 on the Children's Climate Risk Index 2021 and was ranked 37th globally.",
+          "citations": [
+            "unicef-vietnam-2045-children-p105-fixed-0004"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p105-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\nand landslides, biodiversity loss, drought, saltwater intrusion, storm surges\nand typhoons. These impacts then have tertiary impacts: decreased agricultural yields,\ncompromised infrastructure of schools and homes, water scarcity, poor water quality and\nmigration.396\nChildren are particularly vulnerable to these impacts due to their stage of growth and development,\ndependence on caregivers, and lack of influence in decision-making processes.397 According to\nthe Children’s Climate Risk Index 2021, Viet Nam scores 6.8 (ranked 37 globally), with climate\nand environmental risks rated very high (8.8) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face \n\n[unicef-vietnam-2045-children-p106-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 106]\n89% regionally and 73% globally, and 94.6% face four or more types of shocks.399 Despite some\nrecognition of children in climate change policy and strategies in Viet Nam, there are notable\ngaps in child-specific references across the national legal and policy landscape. There are also\nrelatively few legal instruments that recognise children’s rights in relation to climate change to\nexpress their views and to participate.400\nEmerging evidence highlights a strong correlation between climate change and poverty,\nparticularly impacting children. Children from the poorest households are disproportionately\naffected by the economic consequences of extreme weather events. In Viet Nam, half of the\nchi\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p105-fixed-0004",
+          "unicef-vietnam-2045-children-p106-fixed-0000",
+          "unicef-vietnam-2045-children-p105-fixed-0005"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 1079,
+      "completion_tokens": 83,
+      "reported_cost_usd": 0.00020995999999999992,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "D7-19",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "By age 15, how did the share of children from the poorest households who experienced an extreme weather event affecting household finances compare with the share from the wealthiest households?",
+    "filter": null,
+    "status": "answered",
+    "answer": "By age 15, half of the children from the poorest households in Viet Nam had experienced at least one extreme weather event that negatively impacted their household economy, compared to only 17% of children from the wealthiest households. [unicef-vietnam-2045-children-p106-fixed-0001]",
+    "citations": [
+      "unicef-vietnam-2045-children-p106-fixed-0001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "age 15 share children poorest households extreme weather event wealthiest households",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p106-fixed-0001",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 106,
+            "text": "nately\naffected by the economic consequences of extreme weather events. In Viet Nam, half of the\nchildren from the poorest households had experienced at least one extreme weather event\nthat negatively impacted their household economy by the age of 15, compared to only 17%\nof children from the wealthiest households. 401 According to a UNICEF Viet Nam survey, 402\nyoung people in Viet Nam report significant effects of climate change and natural disasters\non their lives and communities. Among respondents, 69% noted that their environment is\npolluted, 46% observed a reduction in the quality and quantity of meals, and 43% experienced\ndecreased family income due to climate change and natural disast",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 106
+            },
+            "score": 0.5845372224110583
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p107-fixed-0002",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 107,
+            "text": "onger sustainable\ndue to extreme weather events. Displacement exposes children to neglect, increased school\ndropouts, and heightened risks of violence and exploitation, particularly for girls. Disrupted\nroutines and loss of stability contribute to mental health and psychosocial challenges for\nchildren and youth.409\nWorsening Disparities Impacts:\nChildren, women, and ethnic minorities face heightened vulnerabilities to climate risks. Limited\naccess to clean water and proper sanitation in rural areas increases susceptibility to disease.\nWomen and girls bear additional burdens, such as traveling long distances to fetch water, which\noften leads to missed school or work and increased exposure to ",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 107
+            },
+            "score": 0.48991208592048696
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p83-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 83,
+            "text": "d income poverty rates as the share of children living in households\nwith incomes below 60 per cent of the national median household income. To allow for comparison, household\nincome is adjusted using the square root of the household size. These cross-country calculations were based on\nthe assumption that all eligible households receive the relevant benefits. International Labour Organization, 2024.\nA Comprehensive Vision for Children’s Development Towards 2045\n83",
+            "metadata": {
+              "section": "social_protection",
+              "pdf_page": 83
+            },
+            "score": 0.4761584112275614
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p106-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 106]\nnately\naffected by the economic consequences of extreme weather events. In Viet Nam, half of the\nchildren from the poorest households had experienced at least one extreme weather event\nthat negatively impacted their household economy by the age of 15, compared to only 17%\nof children from the wealthiest households. 401 According to a UNICEF Viet Nam survey, 402\nyoung people in Viet Nam report significant effects of climate change and natural disasters\non their lives and communities. Among respondents, 69% noted that their environment is\npolluted, 46% observed a reduction in the quality and quantity of meals, and 43% experienced\ndecreased family income due to climate change and natural disast\n\n[unicef-vietnam-2045-children-p107-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 107]\nonger sustainable\ndue to extreme weather events. Displacement exposes children to neglect, increased school\ndropouts, and heightened risks of violence and exploitation, particularly for girls. Disrupted\nroutines and loss of stability contribute to mental health and psychosocial challenges for\nchildren and youth.409\nWorsening Disparities Impacts:\nChildren, women, and ethnic minorities face heightened vulnerabilities to climate risks. Limited\naccess to clean water and proper sanitation in rural areas increases susceptibility to disease.\nWomen and girls bear additional burdens, such as traveling long distances to fetch water, which\noften leads to missed school or work and increased exposure to \n\n[unicef-vietnam-2045-children-p83-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 83]\nd income poverty rates as the share of children living in households\nwith incomes below 60 per cent of the national median household income. To allow for comparison, household\nincome is adjusted using the square root of the household size. These cross-country calculations were based on\nthe assumption that all eligible households receive the relevant benefits. International Labour Organization, 2024.\nA Comprehensive Vision for Children’s Development Towards 2045\n83",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p106-fixed-0001",
+          "unicef-vietnam-2045-children-p107-fixed-0002",
+          "unicef-vietnam-2045-children-p83-fixed-0004"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 6.519214874948375,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "age 15 share children poorest households extreme weather event wealthiest households"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "By age 15, half of the children from the poorest households in Viet Nam had experienced at least one extreme weather event that negatively impacted their household economy, compared to only 17% of children from the wealthiest households.",
+          "citations": [
+            "unicef-vietnam-2045-children-p106-fixed-0001"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p106-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 106]\nnately\naffected by the economic consequences of extreme weather events. In Viet Nam, half of the\nchildren from the poorest households had experienced at least one extreme weather event\nthat negatively impacted their household economy by the age of 15, compared to only 17%\nof children from the wealthiest households. 401 According to a UNICEF Viet Nam survey, 402\nyoung people in Viet Nam report significant effects of climate change and natural disasters\non their lives and communities. Among respondents, 69% noted that their environment is\npolluted, 46% observed a reduction in the quality and quantity of meals, and 43% experienced\ndecreased family income due to climate change and natural disast\n\n[unicef-vietnam-2045-children-p107-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 107]\nonger sustainable\ndue to extreme weather events. Displacement exposes children to neglect, increased school\ndropouts, and heightened risks of violence and exploitation, particularly for girls. Disrupted\nroutines and loss of stability contribute to mental health and psychosocial challenges for\nchildren and youth.409\nWorsening Disparities Impacts:\nChildren, women, and ethnic minorities face heightened vulnerabilities to climate risks. Limited\naccess to clean water and proper sanitation in rural areas increases susceptibility to disease.\nWomen and girls bear additional burdens, such as traveling long distances to fetch water, which\noften leads to missed school or work and increased exposure to \n\n[unicef-vietnam-2045-children-p83-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 83]\nd income poverty rates as the share of children living in households\nwith incomes below 60 per cent of the national median household income. To allow for comparison, household\nincome is adjusted using the square root of the household size. These cross-country calculations were based on\nthe assumption that all eligible households receive the relevant benefits. International Labour Organization, 2024.\nA Comprehensive Vision for Children’s Development Towards 2045\n83",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p106-fixed-0001",
+          "unicef-vietnam-2045-children-p107-fixed-0002",
+          "unicef-vietnam-2045-children-p83-fixed-0004"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 1052,
+      "completion_tokens": 103,
+      "reported_cost_usd": 0.00021803999999999997,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "D7-20",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What aspirational Human Capital Index target does the conclusion mention for Viet Nam?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The aspirational Human Capital Index target mentioned for Viet Nam is between 0.75 and 0.80. [unicef-vietnam-2045-children-p113-fixed-0002]",
+    "citations": [
+      "unicef-vietnam-2045-children-p113-fixed-0002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "aspirational Human Capital Index target Viet Nam",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p12-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 12,
+            "text": "those of children. Viet Nam’s Human Capital Index (HCI) score21 improved from 0.66 in 2010 to\n0.69 by 2020 22. This reflects the country’s impressive progress in building human capital and\nmaking key investments in children’s survival, education and health, with many of the HCI’s\nseparate component indicators and complementary indicators ranking well-above both regional\naverages and average scores for other lower-middle-income countries, including the probability\nof children’s survival to age 5 (98%), learning-adjusted years of school (10.7), and the rate of\nparticipation in organised learning among children one year younger than the official primary\nschool entry age (100%). However, it also",
+            "metadata": {
+              "section": "introduction",
+              "pdf_page": 12
+            },
+            "score": 0.6890455480397556
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p113-fixed-0002",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 113,
+            "text": "cal foundation for a skilled, healthy, and\nequitable workforce, which is critical for achieving Viet Nam’s aspirations for 2045.\nIn light of Viet Nam’s ambition to become a high-income country by 2045, policy discussions\nhave also referenced an aspirational HCI target of 0.75 to 0.80. Achieving this ambitious goal\nwill require a decisive shift toward early, equitable, and sustained investments in children.\nSpecifically, it will require improvements across the HCI’s core components442, improving child\nsurvival and nutrition outcomes, ensuring every child accesses high-quality learning from early\nchildhood through upper secondary, and expanding inclusive healthcare and WASH services.\nIt will f",
+            "metadata": {
+              "section": "conclusion",
+              "pdf_page": 113
+            },
+            "score": 0.674507878286328
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p12-fixed-0006",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 12,
+            "text": "tial a child born today can achieve by age 18, based on health and\neducation risks in their country. The index ranges from 0 to 1, reflecting expected productivity relative to full\neducation and health, in the context of development accounting. The HCI is not intended for cross-country\nrankings, as small score differences can artificially exaggerate gaps between countries, and such rankings further\nobscure absolute progress made by each country. For more information, see World Bank 2020.\n22 Human Capital Project 2020; Human Capital Project 2023.\n23 World Bank 2024; World Bank Group 2019; Human Capital Project 2023.\nCHILDREN AT THE HEART OF VIET NAM’S NEW ERA:\n12",
+            "metadata": {
+              "section": "introduction",
+              "pdf_page": 12
+            },
+            "score": 0.6623739654051564
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p12-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 12]\nthose of children. Viet Nam’s Human Capital Index (HCI) score21 improved from 0.66 in 2010 to\n0.69 by 2020 22. This reflects the country’s impressive progress in building human capital and\nmaking key investments in children’s survival, education and health, with many of the HCI’s\nseparate component indicators and complementary indicators ranking well-above both regional\naverages and average scores for other lower-middle-income countries, including the probability\nof children’s survival to age 5 (98%), learning-adjusted years of school (10.7), and the rate of\nparticipation in organised learning among children one year younger than the official primary\nschool entry age (100%). However, it also\n\n[unicef-vietnam-2045-children-p113-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 113]\ncal foundation for a skilled, healthy, and\nequitable workforce, which is critical for achieving Viet Nam’s aspirations for 2045.\nIn light of Viet Nam’s ambition to become a high-income country by 2045, policy discussions\nhave also referenced an aspirational HCI target of 0.75 to 0.80. Achieving this ambitious goal\nwill require a decisive shift toward early, equitable, and sustained investments in children.\nSpecifically, it will require improvements across the HCI’s core components442, improving child\nsurvival and nutrition outcomes, ensuring every child accesses high-quality learning from early\nchildhood through upper secondary, and expanding inclusive healthcare and WASH services.\nIt will f\n\n[unicef-vietnam-2045-children-p12-fixed-0006 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 12]\ntial a child born today can achieve by age 18, based on health and\neducation risks in their country. The index ranges from 0 to 1, reflecting expected productivity relative to full\neducation and health, in the context of development accounting. The HCI is not intended for cross-country\nrankings, as small score differences can artificially exaggerate gaps between countries, and such rankings further\nobscure absolute progress made by each country. For more information, see World Bank 2020.\n22 Human Capital Project 2020; Human Capital Project 2023.\n23 World Bank 2024; World Bank Group 2019; Human Capital Project 2023.\nCHILDREN AT THE HEART OF VIET NAM’S NEW ERA:\n12",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p12-fixed-0000",
+          "unicef-vietnam-2045-children-p113-fixed-0002",
+          "unicef-vietnam-2045-children-p12-fixed-0006"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 4.406929792021401,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "aspirational Human Capital Index target Viet Nam"
+        }
+      },
+      {
+        "tool": "final_answer",
+        "arguments": {
+          "answer": "The aspirational Human Capital Index target mentioned for Viet Nam is between 0.75 and 0.80.",
+          "citations": [
+            "unicef-vietnam-2045-children-p113-fixed-0002"
+          ]
+        },
+        "context": "[unicef-vietnam-2045-children-p12-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 12]\nthose of children. Viet Nam’s Human Capital Index (HCI) score21 improved from 0.66 in 2010 to\n0.69 by 2020 22. This reflects the country’s impressive progress in building human capital and\nmaking key investments in children’s survival, education and health, with many of the HCI’s\nseparate component indicators and complementary indicators ranking well-above both regional\naverages and average scores for other lower-middle-income countries, including the probability\nof children’s survival to age 5 (98%), learning-adjusted years of school (10.7), and the rate of\nparticipation in organised learning among children one year younger than the official primary\nschool entry age (100%). However, it also\n\n[unicef-vietnam-2045-children-p113-fixed-0002 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 113]\ncal foundation for a skilled, healthy, and\nequitable workforce, which is critical for achieving Viet Nam’s aspirations for 2045.\nIn light of Viet Nam’s ambition to become a high-income country by 2045, policy discussions\nhave also referenced an aspirational HCI target of 0.75 to 0.80. Achieving this ambitious goal\nwill require a decisive shift toward early, equitable, and sustained investments in children.\nSpecifically, it will require improvements across the HCI’s core components442, improving child\nsurvival and nutrition outcomes, ensuring every child accesses high-quality learning from early\nchildhood through upper secondary, and expanding inclusive healthcare and WASH services.\nIt will f\n\n[unicef-vietnam-2045-children-p12-fixed-0006 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 12]\ntial a child born today can achieve by age 18, based on health and\neducation risks in their country. The index ranges from 0 to 1, reflecting expected productivity relative to full\neducation and health, in the context of development accounting. The HCI is not intended for cross-country\nrankings, as small score differences can artificially exaggerate gaps between countries, and such rankings further\nobscure absolute progress made by each country. For more information, see World Bank 2020.\n22 Human Capital Project 2020; Human Capital Project 2023.\n23 World Bank 2024; World Bank Group 2019; Human Capital Project 2023.\nCHILDREN AT THE HEART OF VIET NAM’S NEW ERA:\n12",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p12-fixed-0000",
+          "unicef-vietnam-2045-children-p113-fixed-0002",
+          "unicef-vietnam-2045-children-p12-fixed-0006"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 2,
+      "embedding_requests": 1,
+      "prompt_tokens": 1100,
+      "completion_tokens": 77,
+      "reported_cost_usd": 0.00021002999999999994,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "D7-23",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "How many climate-resilient schools does the report commit to constructing by 2045?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "climate-resilient schools 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p109-fixed-0001",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 109,
+            "text": ",\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 109
+            },
+            "score": 0.5474328588543038
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p99-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 99,
+            "text": "ldren’s Development Towards 2045\n99",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 99
+            },
+            "score": 0.5442501287820276
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p76-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 76,
+            "text": "ater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri",
+            "metadata": {
+              "section": "wash",
+              "pdf_page": 76
+            },
+            "score": 0.5390940669987643
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "commit to constructing climate-resilient schools by 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p109-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 109,
+            "text": "Building a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 109
+            },
+            "score": 0.5433960499620419
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p21-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 21,
+            "text": "ision for Children’s Development Towards 2045\n21",
+            "metadata": {
+              "section": "education",
+              "pdf_page": 21
+            },
+            "score": 0.5371538807580477
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p51-fixed-0003",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 51,
+            "text": "’s Development Towards 2045\n51",
+            "metadata": {
+              "section": "health_nutrition",
+              "pdf_page": 51
+            },
+            "score": 0.5203266869197354
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri\n\n[unicef-vietnam-2045-children-p109-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\nBuilding a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004",
+          "unicef-vietnam-2045-children-p109-fixed-0000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "number of climate-resilient schools to be constructed by 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p109-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 109,
+            "text": "Building a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 109
+            },
+            "score": 0.507244701974005
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p51-fixed-0003",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 51,
+            "text": "’s Development Towards 2045\n51",
+            "metadata": {
+              "section": "health_nutrition",
+              "pdf_page": 51
+            },
+            "score": 0.5038063871426811
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p113-fixed-0007",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 113,
+            "text": "f survival to age 5), schooling (expected years of school, harmonised\ntest scores, learning-adjusted years of school), and health (adult survival rate, and not being stunted).\nA Comprehensive Vision for Children’s Development Towards 2045\n113",
+            "metadata": {
+              "section": "conclusion",
+              "pdf_page": 113
+            },
+            "score": 0.4995213147093208
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri\n\n[unicef-vietnam-2045-children-p109-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\nBuilding a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004",
+          "unicef-vietnam-2045-children-p109-fixed-0000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "number of climate-resilient schools to be constructed by 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p109-fixed-0000",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 109,
+            "text": "Building a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 109
+            },
+            "score": 0.507244701974005
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p51-fixed-0003",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 51,
+            "text": "’s Development Towards 2045\n51",
+            "metadata": {
+              "section": "health_nutrition",
+              "pdf_page": 51
+            },
+            "score": 0.5038063871426811
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p113-fixed-0007",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 113,
+            "text": "f survival to age 5), schooling (expected years of school, harmonised\ntest scores, learning-adjusted years of school), and health (adult survival rate, and not being stunted).\nA Comprehensive Vision for Children’s Development Towards 2045\n113",
+            "metadata": {
+              "section": "conclusion",
+              "pdf_page": 113
+            },
+            "score": 0.4995213147093208
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri\n\n[unicef-vietnam-2045-children-p109-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\nBuilding a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004",
+          "unicef-vietnam-2045-children-p109-fixed-0000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_seconds": 11.470937124919146,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "climate-resilient schools 2045"
+        }
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "commit to constructing climate-resilient schools by 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004"
+        ]
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "number of climate-resilient schools to be constructed by 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri\n\n[unicef-vietnam-2045-children-p109-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\nBuilding a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004",
+          "unicef-vietnam-2045-children-p109-fixed-0000"
+        ]
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "number of climate-resilient schools to be constructed by 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri\n\n[unicef-vietnam-2045-children-p109-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\nBuilding a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004",
+          "unicef-vietnam-2045-children-p109-fixed-0000"
+        ]
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "number of climate-resilient schools to be constructed by 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p109-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\n,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate risks and sector-specific adaptation strategies. Use accessible platforms to\ninform communities about sustainable practices and resilience measures (e.g., efficient\nenergy use, water conservation, and disaster preparedness). 424 Introduce climate change\nadaptation topics into school curricula and provide training for educators to raise awareness\nof environmental challenges.425\n• Shift towards diverse, clean, and secure energy sources to reduce greenhouse gas\nemissions and air pollution. Promote incentives for private sector participation in sustainable\nenergy solutions.426\n• Ensure economic and\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p76-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 76]\nater scarcity and climate-\nrelated challenges. This case demonstrates how schools and public facilities such as health\ncentres and serve as opportune entry points for such technologies to protect both children’s\nhealth and their education.\n• Increase human capacity of national and local governments through systematic knowledge\nsharing and skills transfer. Implement capacity building on climate resilient WASH based on\nstandards and guidelines and promote and strengthen international cooperation.\n• Extend alternative financing, including for O&M , especially in rural areas, by exploring\npublic-private partnerships (PPPs) and incorporating private investments provided by\ncommercial banks or pri\n\n[unicef-vietnam-2045-children-p109-fixed-0000 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 109]\nBuilding a Low-Carbon, Resilient Economy\n• Update technical guidelines and service standards for climate-resilient infrastructure.\nFor instance, promote climate-adaptive designs in health facilities, schools, water and\nsanitation, transportation networks, and housing.422\n• Create national task forces to enhance coordination between key stakeholders across\nsectors (e.g., education, health, agriculture, and energy). Develop policies to attract private\nsector investments and better leverage climate finance.423\n• Train stakeholders , including policymakers, local authorities, and community leaders,\non climate resilience strategies specific to their sectors. Increase public awareness of\nclimate r",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p109-fixed-0001",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p76-fixed-0004",
+          "unicef-vietnam-2045-children-p109-fixed-0000"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 5,
+      "embedding_requests": 3,
+      "prompt_tokens": 3652,
+      "completion_tokens": 123,
+      "reported_cost_usd": 0.0006171799999999999,
+      "cost_reporting_missing": 0
+    }
+  },
+  {
+    "query_id": "D7-24",
+    "split": "test",
+    "strategy": "A",
+    "index_strategy": "day7_A",
+    "question": "What percentage of GDP does the report set aside for a child-specific climate-adaptation budget by 2045?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "percentage of GDP child-specific climate-adaptation budget 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p86-fixed-0001",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 86,
+            "text": "h outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and",
+            "metadata": {
+              "section": "social_protection",
+              "pdf_page": 86
+            },
+            "score": 0.5596155466339647
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p105-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 105,
+            "text": ") and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 105
+            },
+            "score": 0.5549394177001509
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p99-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 99,
+            "text": "ldren’s Development Towards 2045\n99",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 99
+            },
+            "score": 0.5391666458467776
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "percentage of GDP child-specific climate-adaptation budget 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p86-fixed-0001",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 86,
+            "text": "h outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and",
+            "metadata": {
+              "section": "social_protection",
+              "pdf_page": 86
+            },
+            "score": 0.5596155466339647
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p105-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 105,
+            "text": ") and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 105
+            },
+            "score": 0.5549394177001509
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p99-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 99,
+            "text": "ldren’s Development Towards 2045\n99",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 99
+            },
+            "score": 0.5391666458467776
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "child-specific climate-adaptation budget percentage of GDP 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p99-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 99,
+            "text": "ldren’s Development Towards 2045\n99",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 99
+            },
+            "score": 0.5217261937515906
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p105-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 105,
+            "text": ") and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 105
+            },
+            "score": 0.5089014541547296
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p21-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 21,
+            "text": "ision for Children’s Development Towards 2045\n21",
+            "metadata": {
+              "section": "education",
+              "pdf_page": 21
+            },
+            "score": 0.4921408511511487
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p21-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 21]\nision for Children’s Development Towards 2045\n21",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p21-fixed-0005"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "child-specific climate-adaptation budget percentage of GDP 2045",
+        "filter": null,
+        "results": [
+          {
+            "id": "unicef-vietnam-2045-children-p99-fixed-0004",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 99,
+            "text": "ldren’s Development Towards 2045\n99",
+            "metadata": {
+              "section": "child_protection",
+              "pdf_page": 99
+            },
+            "score": 0.5217261937515906
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p105-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 105,
+            "text": ") and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105",
+            "metadata": {
+              "section": "cross_cutting",
+              "pdf_page": 105
+            },
+            "score": 0.5089014541547296
+          },
+          {
+            "id": "unicef-vietnam-2045-children-p21-fixed-0005",
+            "source_id": "unicef-vietnam-2045-children",
+            "source": "https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf",
+            "page": 21,
+            "text": "ision for Children’s Development Towards 2045\n21",
+            "metadata": {
+              "section": "education",
+              "pdf_page": 21
+            },
+            "score": 0.4921408511511487
+          }
+        ],
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p21-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 21]\nision for Children’s Development Towards 2045\n21",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p21-fixed-0005"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_seconds": 9.946061499998905,
+    "model_tool_calls": [
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "percentage of GDP child-specific climate-adaptation budget 2045"
+        }
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "percentage of GDP child-specific climate-adaptation budget 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004"
+        ]
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "child-specific climate-adaptation budget percentage of GDP 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004"
+        ]
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "child-specific climate-adaptation budget percentage of GDP 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p21-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 21]\nision for Children’s Development Towards 2045\n21",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p21-fixed-0005"
+        ]
+      },
+      {
+        "tool": "search",
+        "arguments": {
+          "query": "child-specific climate-adaptation budget percentage of GDP 2045"
+        },
+        "context": "[unicef-vietnam-2045-children-p86-fixed-0001 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 86]\nh outcomes . Carbon tax revenue, if reinvested in social\nsectors, can create fiscal space and address socioeconomic challenges without substantially\nimpacting GDP growth .297 To ensure that social protection effectively supports children’s rights\nand well-being, a forward-looking, integrated, and systematic approach to social protection298 is\nnecessary, underpinned by a strategic framework that incorporates resilience-building, adaptive\nmechanisms, and disaster risk reduction. An investment into social protection for children and\nfamilies is an affordable and strategic investment into the human capital of future generations.\n7.3 Policy Recommendations\n2025-2030\n• Expand social protection and\n\n[unicef-vietnam-2045-children-p105-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 105]\n) and child vulnerability at 3.0. 398 Alarmingly, 99.5%\nof children in Viet Nam (26.2 million) face three or more types of climate shocks, compared to\n392 World Bank Group 2023.\n393 World Bank and Ministry of Planning and Investment of Viet Nam 2016.\n394 World Bank Group 2023.\n395 UNICEF Viet Nam 2024b.\n396 Ministry of Planning and Investments and UNICEF Viet Nam 2021.\n397 Ibid.\n398 UNICEF 2021b.\nA Comprehensive Vision for Children’s Development Towards 2045\n105\n\n[unicef-vietnam-2045-children-p99-fixed-0004 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 99]\nldren’s Development Towards 2045\n99\n\n[unicef-vietnam-2045-children-p21-fixed-0005 | https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf | page 21]\nision for Children’s Development Towards 2045\n21",
+        "context_ids": [
+          "unicef-vietnam-2045-children-p86-fixed-0001",
+          "unicef-vietnam-2045-children-p105-fixed-0005",
+          "unicef-vietnam-2045-children-p99-fixed-0004",
+          "unicef-vietnam-2045-children-p21-fixed-0005"
+        ]
+      }
+    ],
+    "usage": {
+      "chat_requests": 5,
+      "embedding_requests": 2,
+      "prompt_tokens": 3290,
+      "completion_tokens": 120,
+      "reported_cost_usd": 0.0005621200000000004,
+      "cost_reporting_missing": 0
+    }
+  }
+]

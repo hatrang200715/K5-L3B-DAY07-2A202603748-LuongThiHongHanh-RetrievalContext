@@ -1,0 +1,62 @@
+{
+  "A": {
+    "index_strategy": "day7_A",
+    "question_count": 18,
+    "statuses": {
+      "answered": 0,
+      "abstain": 0,
+      "error": 18
+    },
+    "elapsed_seconds": 70.06014008400962,
+    "mean_case_seconds": 3.892140525341448,
+    "retrieval_calls": 0,
+    "embedding_requests": 0,
+    "chat_requests": 18,
+    "prompt_tokens": 8015,
+    "completion_tokens": 1724,
+    "reported_cost_usd": 0.0,
+    "cost_reporting_missing_requests": 0,
+    "embedding_seconds": 0.0,
+    "mean_retrieval_seconds": null
+  },
+  "B": {
+    "index_strategy": "day7_B",
+    "question_count": 18,
+    "statuses": {
+      "answered": 0,
+      "abstain": 0,
+      "error": 18
+    },
+    "elapsed_seconds": 86.22537033399567,
+    "mean_case_seconds": 4.790246773039042,
+    "retrieval_calls": 0,
+    "embedding_requests": 0,
+    "chat_requests": 18,
+    "prompt_tokens": 8298,
+    "completion_tokens": 2043,
+    "reported_cost_usd": 0.0,
+    "cost_reporting_missing_requests": 0,
+    "embedding_seconds": 0.0,
+    "mean_retrieval_seconds": null
+  },
+  "C": {
+    "index_strategy": "day7_C",
+    "question_count": 18,
+    "statuses": {
+      "answered": 0,
+      "abstain": 0,
+      "error": 18
+    },
+    "elapsed_seconds": 43.351829749997705,
+    "mean_case_seconds": 2.4083949747728184,
+    "retrieval_calls": 0,
+    "embedding_requests": 0,
+    "chat_requests": 16,
+    "prompt_tokens": 7140,
+    "completion_tokens": 1705,
+    "reported_cost_usd": 0.0,
+    "cost_reporting_missing_requests": 0,
+    "embedding_seconds": 0.0,
+    "mean_retrieval_seconds": null
+  }
+}

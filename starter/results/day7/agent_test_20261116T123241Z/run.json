@@ -1,0 +1,68 @@
+{
+  "started_at": "2026-11-16T12:32:41.509726+00:00",
+  "completed_at": "2026-11-16T12:34:33.659424+00:00",
+  "split": "test",
+  "model": "openai/gpt-4o-mini",
+  "provider": "OpenRouter",
+  "embedding_model": "openai/text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7",
+  "corpus_sha256": "1dc94fe84874fdf0f0955d523990a019d116cbdd752fdfd1f6cc021a428dbdd9",
+  "strategies": [
+    "A",
+    "C"
+  ],
+  "question_count_per_strategy": 7,
+  "agent_parameters": {
+    "top_k": 3,
+    "max_searches": 4,
+    "context_budget": 3000,
+    "context_budget_unit": "characters",
+    "temperature": 0,
+    "answer_max_tokens": 700,
+    "filter_policy": "Only strategy C applies the explicit question section filter."
+  },
+  "total_elapsed_seconds": 112.15244441700634,
+  "strategy_summaries": {
+    "A": {
+      "index_strategy": "day7_A",
+      "question_count": 7,
+      "statuses": {
+        "answered": 5,
+        "abstain": 2,
+        "error": 0
+      },
+      "elapsed_seconds": 47.602709666942246,
+      "mean_case_seconds": 6.800307119265199,
+      "retrieval_calls": 13,
+      "embedding_requests": 10,
+      "chat_requests": 20,
+      "prompt_tokens": 12473,
+      "completion_tokens": 710,
+      "reported_cost_usd": 0.00228083,
+      "cost_reporting_missing_requests": 0,
+      "embedding_seconds": 10.81855079100933,
+      "mean_retrieval_seconds": 0.8702688654884696
+    },
+    "C": {
+      "index_strategy": "day7_C",
+      "question_count": 7,
+      "statuses": {
+        "answered": 3,
+        "abstain": 4,
+        "error": 0
+      },
+      "elapsed_seconds": 64.50170483393595,
+      "mean_case_seconds": 9.214458893019971,
+      "retrieval_calls": 19,
+      "embedding_requests": 14,
+      "chat_requests": 26,
+      "prompt_tokens": 18832,
+      "completion_tokens": 761,
+      "reported_cost_usd": 0.0032593000000000006,
+      "cost_reporting_missing_requests": 0,
+      "embedding_seconds": 16.941490457043983,
+      "mean_retrieval_seconds": 0.9100907126895005
+    }
+  }
+}

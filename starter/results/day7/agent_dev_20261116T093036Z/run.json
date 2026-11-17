@@ -1,0 +1,89 @@
+{
+  "started_at": "2026-11-16T09:30:36.070717+00:00",
+  "completed_at": "2026-11-16T09:49:37.150167+00:00",
+  "split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "provider": "OpenRouter",
+  "embedding_model": "openai/text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7",
+  "corpus_sha256": "1dc94fe84874fdf0f0955d523990a019d116cbdd752fdfd1f6cc021a428dbdd9",
+  "strategies": [
+    "A",
+    "B",
+    "C"
+  ],
+  "question_count_per_strategy": 17,
+  "agent_parameters": {
+    "top_k": 3,
+    "max_searches": 4,
+    "context_budget": 3000,
+    "context_budget_unit": "characters",
+    "temperature": 0,
+    "answer_max_tokens": 700,
+    "filter_policy": "Only strategy C applies the explicit question section filter."
+  },
+  "total_elapsed_seconds": 698.2584188750479,
+  "strategy_summaries": {
+    "A": {
+      "index_strategy": "day7_A",
+      "question_count": 17,
+      "statuses": {
+        "answered": 0,
+        "abstain": 14,
+        "error": 3
+      },
+      "elapsed_seconds": 361.3941073330352,
+      "mean_case_seconds": 21.25806467159761,
+      "retrieval_calls": 31,
+      "embedding_requests": 24,
+      "chat_requests": 45,
+      "prompt_tokens": 28346,
+      "completion_tokens": 2177,
+      "reported_cost_usd": 0.0055187100000000005,
+      "cost_reporting_missing_requests": 0,
+      "embedding_seconds": 26.042731792316772,
+      "mean_retrieval_seconds": 1.0058824664184582
+    },
+    "B": {
+      "index_strategy": "day7_B",
+      "question_count": 17,
+      "statuses": {
+        "answered": 0,
+        "abstain": 17,
+        "error": 0
+      },
+      "elapsed_seconds": 169.33798045793083,
+      "mean_case_seconds": 9.960956254809657,
+      "retrieval_calls": 35,
+      "embedding_requests": 24,
+      "chat_requests": 52,
+      "prompt_tokens": 35789,
+      "completion_tokens": 2415,
+      "reported_cost_usd": 0.006779780000000002,
+      "cost_reporting_missing_requests": 0,
+      "embedding_seconds": 35.180125416838564,
+      "mean_retrieval_seconds": 1.0606071429127562
+    },
+    "C": {
+      "index_strategy": "day7_C",
+      "question_count": 17,
+      "statuses": {
+        "answered": 0,
+        "abstain": 17,
+        "error": 0
+      },
+      "elapsed_seconds": 167.4678571249824,
+      "mean_case_seconds": 9.850972328533638,
+      "retrieval_calls": 35,
+      "embedding_requests": 25,
+      "chat_requests": 52,
+      "prompt_tokens": 35363,
+      "completion_tokens": 2436,
+      "reported_cost_usd": 0.0066489500000000016,
+      "cost_reporting_missing_requests": 0,
+      "embedding_seconds": 39.65105912287254,
+      "mean_retrieval_seconds": 1.1486531297476696
+    }
+  }
+}
