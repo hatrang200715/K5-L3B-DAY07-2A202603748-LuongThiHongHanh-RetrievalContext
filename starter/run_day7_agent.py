@@ -65,11 +65,12 @@ TOOLS = [
 
 
 class OpenRouter:
-    def __init__(self, api_key, model, embedding_model, visual_pages_dir=None):
+    def __init__(self, api_key, model, embedding_model, visual_pages_dir=None, base_url=OPENROUTER_BASE_URL):
         self.api_key = api_key
         self.model = model
         self.embedding_model = embedding_model
         self.visual_pages_dir = visual_pages_dir
+        self.base_url = base_url.rstrip('/')
         self.include_visual_evidence = True
         self.usage = {
             'chat_requests': 0,
@@ -83,7 +84,7 @@ class OpenRouter:
 
     def _request(self, endpoint, payload):
         request = Request(
-            f'{OPENROUTER_BASE_URL}/{endpoint}',
+            f'{self.base_url}/{endpoint}',
             data=json.dumps(payload).encode('utf-8'),
             headers={
                 'Authorization': f'Bearer {self.api_key}',
@@ -272,11 +273,11 @@ class PgVectorRetriever:
         return results
 
 
-def _embedding_model(config):
+def _embedding_model(config, base_url=OPENROUTER_BASE_URL):
     model = config.get('EMBEDDING_MODEL', 'text-embedding-3-small').strip()
     if model.startswith('openrouter:'):
         model = model.removeprefix('openrouter:')
-    if '/' not in model:
+    if base_url == OPENROUTER_BASE_URL and '/' not in model:
         model = f'openai/{model}'
     return model
 
@@ -301,15 +302,16 @@ def main():
         parser.error('top-k, max-searches, and budget-chars must be positive')
 
     load_dotenv(Path('.env'))
-    api_key = os.environ.get('OPENROUTER_API_KEY')
+    base_url = os.environ.get('LLM_BASE_URL', OPENROUTER_BASE_URL)
+    api_key = os.environ.get('OPENROUTER_API_KEY') or os.environ.get('LLM_API_KEY')
     database_url = os.environ.get('DATABASE_URL')
     if not api_key or not database_url:
-        parser.error('OPENROUTER_API_KEY and DATABASE_URL are required in starter/.env')
+        parser.error('An API key (OPENROUTER_API_KEY or LLM_API_KEY) and DATABASE_URL are required in starter/.env')
 
     ingest_path = Path('results/day7/ingest_metadata.json')
     ingest = json.loads(ingest_path.read_text(encoding='utf-8'))
     dimensions = int(ingest['embedding_dimensions'])
-    embedding_model = _embedding_model(os.environ)
+    embedding_model = _embedding_model(os.environ, base_url)
     question_data = json.loads(args.questions.read_text(encoding='utf-8'))
     questions = question_data.get('questions') if isinstance(question_data, dict) else question_data
     if not isinstance(questions, list):
@@ -344,7 +346,7 @@ def main():
     strategy_summaries = {}
     with psycopg.connect(database_url, connect_timeout=10) as connection:
         for strategy in args.strategies:
-            provider = OpenRouter(api_key, args.model, embedding_model, visual_pages_dir)
+            provider = OpenRouter(api_key, args.model, embedding_model, visual_pages_dir, base_url)
             retriever = PgVectorRetriever(
                 connection, provider, strategy, dimensions, visual_pages_dir
             )

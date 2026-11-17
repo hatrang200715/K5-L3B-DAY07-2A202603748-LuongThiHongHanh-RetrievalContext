@@ -92,6 +92,25 @@ Tạo lại index ảnh toàn bộ trang nội dung (cần PyMuPDF, khai báo tr
 .venv/bin/python build_advanced_visual_index.py --manifest benchmark/advanced/manifest.yaml
 ```
 
+### Dùng provider miễn phí thay cho OpenRouter
+
+Runner và ingest hỗ trợ mọi endpoint OpenAI-compatible. Không muốn nạp credit OpenRouter thì tạo API key miễn phí (ví dụ Google AI Studio, không cần thẻ), ghi vào `starter/.env`:
+
+```
+LLM_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai
+LLM_API_KEY=<key>
+EMBEDDING_MODEL=text-embedding-004
+DATABASE_URL=<không đổi>
+```
+
+Embedding khác mô hình cũ nên phải index lại trước (script tạo lại bảng `day6_chunks` cho các strategy `day7_A/B/C` và ghi `ingest_metadata.json` mới; số chunk có thể lệch nhẹ so với lần ingest gốc do khác phiên bản trích text):
+
+```bash
+.venv/bin/python ingest_day7.py --manifest benchmark/advanced/manifest.yaml
+```
+
+Lệnh chạy agent giữ nguyên; `--model` đổi theo provider (ví dụ `gemini-2.0-flash`). Lưu ý filter `overview` trong hai câu `ADV-D-X01/X02` không khớp section `introduction` mà index gốc gán cho trang 9, nên cấu hình C sẽ không lấy được evidence cho hai câu này; ghi nhận trong phân tích lỗi thay vì đổi mapping sau khi đã chạy basic.
+
 Index lưu số trang PDF vật lý, hash PDF/ảnh và ảnh trang đầy đủ. Runner ghép ảnh của tối đa hai trang truy xuất vào câu hỏi bảng/biểu đồ/ảnh-sơ đồ/multi-hop; câu text và câu thiếu evidence không gửi ảnh. Đây không phải OCR hay image retrieval độc lập. Đối chiếu vùng/locator của gold với tài liệu gốc; validator tự động chỉ kiểm tra quote text trích được và cấu trúc benchmark, không xác nhận độ đúng của diễn giải hình.
 
 Sau khi xác minh nguồn và có đủ API credit, so sánh cấu hình trên dev trước:
