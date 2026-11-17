@@ -58,7 +58,7 @@ Thay đường dẫn trong `< >`. Script tổng hợp nhãn bạn đã chấm, k
 
 ## 5. Chạy agent thật trên benchmark Day 7
 
-`run_day7_agent.py` kết nối OpenRouter với PostgreSQL/pgvector qua `starter/.env` và chạy bộ câu hỏi Day 7 trên các index `day7_A`, `day7_B`, `day7_C`. Mặc định chạy đủ 17 câu dev trên cả ba chiến lược. Model không nhận gold; chỉ chiến lược C áp dụng section filter có sẵn trong câu hỏi. Cần có `OPENROUTER_API_KEY`, `DATABASE_URL`, và embedding model tương thích với index trong `.env`.
+`run_day7_agent.py` kết nối OpenRouter với PostgreSQL/pgvector qua `starter/.env` và chạy bộ câu hỏi Day 7 trên các index `day7_A`, `day7_B`, `day7_C`. Mặc định chạy đủ 17 câu dev trên cả ba chiến lược. Model không nhận gold; chỉ chiến lược C áp dụng section filter có sẵn trong câu hỏi. Cần có `OPENROUTER_API_KEY`, `DATABASE_URL`, và embedding model tương thích với index trong `.env`. Sao chép [`.env.example`](.env.example) thành `.env` rồi điền giá trị; không commit `.env`.
 
 Chạy từ thư mục `starter`:
 
@@ -86,10 +86,10 @@ Benchmark riêng nằm trong `benchmark/advanced/`: `questions.json` có 18 câu
 .venv/bin/python validate_advanced_benchmark.py
 ```
 
-Tạo lại index ảnh toàn bộ trang nội dung (cần PyMuPDF, khai báo trong `requirements.txt`):
+Tạo lại index ảnh toàn bộ trang nội dung (cần PyMuPDF, khai báo trong `requirements.txt`). Manifest nguồn được commit tại [`benchmark/advanced/manifest.yaml`](benchmark/advanced/manifest.yaml); PDF không được commit, hãy đặt đúng tên file mặc định trong `data/`:
 
 ```bash
-.venv/bin/python build_advanced_visual_index.py
+.venv/bin/python build_advanced_visual_index.py --manifest benchmark/advanced/manifest.yaml
 ```
 
 Index lưu số trang PDF vật lý, hash PDF/ảnh và ảnh trang đầy đủ. Runner ghép ảnh của tối đa hai trang truy xuất vào câu hỏi bảng/biểu đồ/ảnh-sơ đồ/multi-hop; câu text và câu thiếu evidence không gửi ảnh. Đây không phải OCR hay image retrieval độc lập. Đối chiếu vùng/locator của gold với tài liệu gốc; validator tự động chỉ kiểm tra quote text trích được và cấu trúc benchmark, không xác nhận độ đúng của diễn giải hình.
@@ -106,7 +106,13 @@ Chấm dev rồi freeze một cấu hình trước khi chạy test. Chỉ khi đ
 .venv/bin/python run_day7_agent.py --model openai/gpt-4o-mini --split test --strategies A --questions benchmark/advanced/questions.json --visual-index results/day7/advanced_visual_index --max-searches 2 --budget-chars 1800
 ```
 
-Không chọn cấu hình dựa trên test. Lỗi, timeout hoặc không có kết quả tính là câu không đạt; cần chấm thủ công toàn bộ test, citation và evidence từ PDF gốc rồi báo n/N theo từng nhóm. Các lần chạy dev hiện lưu dưới `results/day7/agent_dev_20261116T152306Z/` và `results/day7/agent_dev_20261116T153851Z/`, nhưng OpenRouter trả HTTP 402 do thiếu credit, nên chưa freeze cấu hình và chưa chạy test advanced. Không công bố điểm hay bonus từ các lần chạy dở dang.
+Không chọn cấu hình dựa trên test. Lỗi, timeout hoặc không có kết quả tính là câu không đạt; cần chấm thủ công toàn bộ test, citation và evidence từ PDF gốc rồi báo n/N theo từng nhóm. Sau khi có nhãn audit, tổng hợp tỉ lệ đạt theo nhóm (câu có đáp án đạt khi `answer_grade` = 2 và mọi citation được hỗ trợ; câu thiếu evidence đạt khi từ chối đúng; lỗi tính không đạt và báo riêng):
+
+```bash
+.venv/bin/python advanced_metrics.py --questions benchmark/advanced/questions.json --cases <cases.json> --traces <traces.json> --reviews <reviews.json> --split test --output results/day7/advanced-metrics.json
+```
+
+Các lần chạy dev hiện lưu dưới `results/day7/agent_dev_20261116T152306Z/` và `results/day7/agent_dev_20261116T153851Z/`, nhưng OpenRouter trả HTTP 402 do thiếu credit, nên chưa freeze cấu hình và chưa chạy test advanced. Không công bố điểm hay bonus từ các lần chạy dở dang.
 
 ## Lưu ý
 
