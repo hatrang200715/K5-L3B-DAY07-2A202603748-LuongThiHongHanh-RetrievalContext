@@ -1,0 +1,26 @@
+source:
+  source_id: unicef-vietnam-2045-children
+  title: "Children at the Heart of Viet Nam's New Era: A Comprehensive Vision for Children's Development Towards 2045"
+  publisher: UNICEF Viet Nam
+  source_path_or_url: https://www.unicef.org/vietnam/vi/media/19741/file/Final%20-%20Designed%20Viet%20Nam%202045%20Full%20Report-En.pdf.pdf
+  snapshot_access_date: '2026-11-16'
+  snapshot_sha256: 1dc94fe84874fdf0f0955d523990a019d116cbdd752fdfd1f6cc021a428dbdd9
+  physical_page_count: 136
+  page_numbering: 1-based physical PDF page
+  counted_content_page_ranges:
+    - [9, 14]
+    - [16, 114]
+    - [134, 135]
+  counted_content_page_count: 107
+  license: >-
+    UNICEF-hosted publication; open redistribution license not confirmed.
+    Keep a local copy for the lab only; do not commit or redistribute the PDF.
+  excluded_pages:
+    - range: [1, 8]
+      reason: Cover and front matter without substantive content.
+    - range: [15, 15]
+      reason: Section divider page.
+    - range: [115, 133]
+      reason: References and back matter.
+    - range: [136, 136]
+      reason: Contact and back cover page.
